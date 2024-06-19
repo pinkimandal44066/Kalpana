@@ -32,6 +32,10 @@ import img16 from '../../public/img16.png';
 import img17 from '../../public/img17.png';
 import img18 from '../../public/img18.png';
 import img19 from '../../public/img19.png';
+import img20 from '../../public/img20.png';
+import { IoLogoYoutube } from "react-icons/io";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 // import './styles.css';
 
 // import required modules
@@ -100,7 +104,7 @@ const Home = () => {
 
         {isSideMenuOpen && (
           <div
-            className="fixed h-screen w-full z-[999] font-Poppins cursor-pointer bg-black bg-opacity-50 
+            className="fixed h-screen w-full z-[999] font-Poppins cursor-pointer bg-[#091D33] bg-opacity-50 
            backdrop-blur-sm top-0 right-0"
           >
             <section
@@ -130,14 +134,14 @@ const Home = () => {
 
         {/* PART2 */}
 
-        <div className=" bg-black h-72  ">
+        <div className=" bg-[#091D33] h-72  ">
           <div className=" lg:mx-32 md:mx-32 mx-5 ">
             <div className=" max-w-screen-xl lg:mx-auto   ">
-              <h1 className="text-white font-semibold text-3xl lg:mb-2 md:mb-2 ">
+              <h1 className="text-white font-semibold text-3xl lg:mb-2 md:mb-2  ">
                 Explore
               </h1>
               <h1 className="text-[#DFA627] font-semibold lg:text-3xl md:text-3xl text-xl mt-3 ">
-                <span className="text-black bg-[#DFA627]  rounded-xl p-2 lg:text-[#DFA627] lg:bg-black ">KALPANA </span>GROUP PORTFOLIO
+                <span className="text-black bg-[#DFA627]  rounded-xl p-2 lg:text-[#DFA627] lg:bg-[#091D33]">KALPANA </span>GROUP PORTFOLIO
               </h1>
             </div>
             <div
@@ -403,7 +407,7 @@ at our spa, or host unforgettable events in our exquisite venues.
 
     
   </div>
-  <img src={img10} className="w-full lg:-mt-[58%] md:-mt-[88%] sm:-mt-[110%] -mt-[210%]"  />
+  <img src={img10} className="w-full lg:-mt-[58%] md:-mt-[80%] sm:-mt-[100%] -mt-[210%]"  />
 
 
 
@@ -429,7 +433,7 @@ at our spa, or host unforgettable events in our exquisite venues.
 
     
   </div>
-  <img src={img10} className="w-full  lg:-mt-[58%] md:-mt-[88%] sm:-mt-[110%] -mt-[210%]" />
+  <img src={img10} className="w-full  lg:-mt-[58%] md:-mt-[80%] sm:-mt-[100%] -mt-[210%]" />
 
 
 
@@ -580,12 +584,12 @@ In Every Business Segment.</p>
       <img src={img7} className="w- mt-4" />
   
       </div>
-      <img src={img11} className=" " />
+      <img src={img11} className="h-0 " />
   
       <div>
       <img src={img8} className="w- mt-4" />
       </div>
-      <img src={img11} className=" " />
+      <img src={img11} className="h-0 " />
       <div>
       <img src={img9} className="w- mt-4" />
       </div>
@@ -596,7 +600,7 @@ In Every Business Segment.</p>
    
   
   
-    {/* <img src={img10} className="w-full  lg:-mt-[58%] md:-mt-[88%] sm:-mt-[110%] -mt-[210%]" /> */}
+    <img src={img10} className="w-full  lg:-mt-[58%] md:-mt-[88%] sm:-mt-[110%] -mt-[210%]" />
   
   
   
@@ -630,7 +634,7 @@ In Every Business Segment.</p>
 
 
 
-    <Swiper
+    <Swiper 
         pagination={{
           type: 'fraction',
         }}
@@ -779,6 +783,193 @@ right at home.
 </Swiper>
 
 
+
+
+{/* Footer */}
+
+
+
+
+{/* <div className="mt-1">
+  
+<div className="bg-[#091D33] text-white py-8 ">
+    <div className="max-w-screen-xl lg:mx-20  mx-5 lg:px-20 md:px-20  flex ">
+        <div className="w-full lg:w-[40%] md:w-full mb-6 md:mb-0">
+        <img src={img20} alt=""  className="w-32"/>
+        
+            <p className="text-sm mt-2">
+                From providing excellent accommodation at competitive prices, delivering the best customer service from our restaurant,
+                 meeting the client requirements for immaculate marbles & tiles to helping people sumptuously decorate 
+                 their walls with our paints, <span className="bg-[#DFA627]  text-black p-1 text-sm font-semibold rounded-md">Kalpana</span> Group has succeeded in every business segment.
+            </p>
+            <h1 className="mt-3 text-xs">CONNECT WITH US</h1>
+            <div className=" flex mt-3 gap-4 text-2xl ">
+            <IoLogoYoutube  className="bg-[#DFA627] rounded-full  "/>
+      <div  className="bg-[#DFA627] rounded-full">
+      <FaFacebook  />
+      </div>
+      <div className="bg-[#DFA627] rounded-full">
+        
+      <FaInstagramSquare />
+      </div>
+            </div>
+        </div>
+        
+
+        <div className="lg:w-32 md:w-96 sm:w-72 ">
+            <h3 className="text-lg font-semibold  border-white pb-2 ">ABOUT US</h3>
+            <ul className="text-sm">
+              <li className="mb-2">About Us </li>
+              <li  className="mb-2">Blog </li>
+              <li>Contact Us</li>
+            </ul>
+            
+        </div>
+        <div className="w-full lg:w-48 md:w-[550px] sm:w-[680px] mb-6 md:mb-0">
+            <h3 className="text-lg font-semibold  border-white pb-2 ">OUR COMPANYS</h3>
+            <ul>
+                <li  className="mb-2"><span className="bg-[#DFA627]  text-black p-1 text-sm font-semibold rounded-md">Kalpana</span>Inn</li>
+                <li className="mb-2">Javed Habib</li>
+                <li  className="mb-2"> <span className="bg-[#DFA627]  text-black p-1 text-sm font-semibold rounded-md">Kalpana</span>Steel & Marble</li>
+                <li  className="mb-2"> <span className="bg-[#DFA627]  text-black p-1 text-sm font-semibold rounded-md">Kalpana</span>Color Bank</li>
+                <li  className="mb-2"><span className="bg-[#DFA627]  text-black p-1 text-sm font-semibold rounded-md">Kalpana</span>Furniture</li>
+                <li  className="mb-2"><span className="bg-[#DFA627]  text-black p-1 text-sm font-semibold rounded-md">Kalpana</span>Builder</li>
+            </ul>
+
+            
+        </div>
+
+
+      
+        <div className="w-full lg:w-80 md:mx-full">
+            <h3 className="text-lg font-semibold  border-white pb-2 ">USEFUL LINKS</h3>
+            <ul>
+                <li className="mb-2">Store Locations</li>
+                <li className="mb-2">Business Partner</li>
+            </ul>
+        </div>
+    </div>
+    
+</div>
+</div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="lg:mt-1 md:mt-1 sm:mt-4 mt-8">
+  <div className="bg-[#091D33] text-white py-8">
+    <div className="max-w-screen-xl lg:mx-20 mx-5 lg:px-20 md:px-20 flex flex-col md:flex-row">
+      
+      <div className="w-full lg:w-[40%] md:w-full mb-6 md:mb-0 ">
+        <img src={img20} alt="" className="w-32 lg:mx-0 md:mx-0 sm:mx-64 mx-24 " />
+        
+        <p className="text-sm mt-2">
+          From providing excellent accommodation at competitive prices, delivering the best customer service from our restaurant, meeting the client requirements for immaculate marbles & tiles to helping people sumptuously decorate their walls with our paints,
+          <span className="bg-[#DFA627] text-black p-1 text-sm font-semibold rounded-md">Kalpana</span> Group has succeeded in every business segment.
+        </p>
+        
+        <h1 className="mt-3 lg:mx-0 md:mx-0 sm:mx-52 sm:text-2xl mx-20 text-sm">CONNECT WITH US</h1>
+        
+        <div className="flex mt-3 sm:gap-7 lg:text-2xl text-4xl sm:mx-64 mx-20 lg:mx-0 gap-4">
+      <div className="bg-[#DFA627] rounded-full">
+      <IoLogoYoutube  />
+      </div>
+          <div className="bg-[#DFA627] rounded-full">
+            <FaFacebook />
+          </div>
+          <div className="bg-[#DFA627] rounded-full">
+            <FaInstagramSquare />
+            
+          </div>
+        </div>
+      </div>
+      
+      <div className="lg:w-32 md:w-96 sm:w-72  lg:block md:block hidden">
+        <h3 className="text-lg font-semibold border-white pb-2">ABOUT US</h3>
+        <ul className="text-sm">
+          <li className="mb-2">About Us</li>
+          <li className="mb-2">Blog</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      
+      <div className="w-full lg:w-48 md:w-[550px] sm:w-[680px] mb-6 md:mb-0  lg:block md:block hidden">
+        <h3 className="text-lg font-semibold border-white pb-2">OUR COMPANIES</h3>
+        <ul>
+          <li className="mb-2"><span className="bg-[#DFA627] text-black p-1 text-sm font-semibold rounded-md">Kalpana</span> Inn</li>
+          <li className="mb-2">Javed Habib</li>
+          <li className="mb-2"><span className="bg-[#DFA627] text-black p-1 text-sm font-semibold rounded-md">Kalpana</span> Steel & Marble</li>
+          <li className="mb-2"><span className="bg-[#DFA627] text-black p-1 text-sm font-semibold rounded-md">Kalpana</span> Color Bank</li>
+          <li className="mb-2"><span className="bg-[#DFA627] text-black p-1 text-sm font-semibold rounded-md">Kalpana</span> Furniture</li>
+          <li className="mb-2"><span className="bg-[#DFA627] text-black p-1 text-sm font-semibold rounded-md">Kalpana</span> Builder</li>
+        </ul>
+      </div>
+      
+
+
+
+
+
+
+      <div className="lg:hidden md:hidden  block flex justify-between mt-4 sm:mx-20 ">
+  <div className="lg:w-32 md:w-96 sm:w-72 w-60 mx-4 ">
+    <h3 className="text-lg font-semibold border-white pb-2">ABOUT US</h3>
+    <ul className="text-sm">
+      <li className="mb-2">About Us</li>
+      <li className="mb-2">Blog</li>
+      <li>Contact Us</li>
+    </ul>
+  </div>
+
+  <div className="w-full lg:w-48 md:w-[550px] sm:w-[520px] mb-6 md:mb-0">
+    <h3 className="text-lg font-semibold border-white pb-2">OUR COMPANIES</h3>
+    <ul>
+      <li className="mb-2"><span className="bg-[#DFA627] text-black p-1 text-sm font-semibold rounded-md">Kalpana</span> Inn</li>
+      <li className="mb-2">Javed Habib</li>
+      <li className="mb-2"><span className="bg-[#DFA627] text-black p-1 text-sm font-semibold rounded-md">Kalpana</span> Steel & Marble</li>
+      <li className="mb-2"><span className="bg-[#DFA627] text-black p-1 text-sm font-semibold rounded-md">Kalpana</span> Color Bank</li>
+      <li className="mb-2"><span className="bg-[#DFA627] text-black p-1 text-sm font-semibold rounded-md">Kalpana</span> Furniture</li>
+      <li className="mb-2"><span className="bg-[#DFA627] text-black p-1 text-sm font-semibold rounded-md">Kalpana</span> Builder</li>
+    </ul>
+  </div>
+
+  <div className="w-full lg:w-80 md:mx-full sm:block hidden">
+        <h3 className="text-lg font-semibold border-white pb-2">USEFUL LINKS</h3>
+        <ul>
+          <li className="mb-2">Store Locations</li>
+          <li className="mb-2">Business Partner</li>
+        </ul>
+      </div>
+</div>
+
+
+
+ 
+      <div className="w-full lg:w-80 md:mx-full -mt-32 lg:-mt-0 md:-mt-0 sm:hidden lg:block md:block ">
+        <h3 className="text-lg font-semibold border-white pb-2">USEFUL LINKS</h3>
+        <ul>
+          <li className="mb-2">Store Locations</li>
+          <li className="mb-2">Business Partner</li>
+        </ul>
+      </div>
+      
+
+
+
+    </div>
+  </div>
+</div>
 
 
 
