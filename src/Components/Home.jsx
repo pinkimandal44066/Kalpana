@@ -201,7 +201,7 @@ items-end justify-end items-center lg:float-right md:float-right mt-4
  
 
         <div className="flex justify-end items-center  ">
-       <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+       <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-28 mx-6 font-bold lg:text-xl text-sm lg:hidden 
        md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
        <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
        <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
@@ -270,7 +270,7 @@ items-end justify-end items-center lg:float-right md:float-right mt-4
  
 
         <div className="flex justify-end items-center  ">
-       <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+       <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-28 mx-6 font-bold lg:text-xl text-sm lg:hidden 
        md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
        <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
        <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
@@ -323,7 +323,7 @@ items-end justify-end items-center lg:float-right md:float-right mt-4
  
 
  <div className="flex justify-end items-center  ">
-<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-28 mx-6 font-bold lg:text-xl text-sm lg:hidden 
 md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
 <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
 <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
@@ -374,7 +374,7 @@ md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
  
 
  <div className="flex justify-end items-center  ">
-<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-28 mx-6 font-bold lg:text-xl text-sm lg:hidden 
 md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
 <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
 <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
@@ -870,7 +870,7 @@ In Every Business Segment.</p>
  
 
  <div className="flex justify-end items-center  ">
-<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-80 mx-6 font-bold lg:text-xl text-sm lg:hidden 
 md:block md:text-xl ">MESSAGE</h1>
 <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
 <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
@@ -923,7 +923,7 @@ md:block md:text-xl ">MESSAGE</h1>
  
 
  <div className="flex justify-end items-center  ">
-<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-80 mx-6 font-bold lg:text-xl text-sm lg:hidden 
 md:block md:text-xl ">MESSAGE</h1>
 <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
 <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
@@ -978,7 +978,7 @@ md:block md:text-xl ">MESSAGE</h1>
  
 
  <div className="flex justify-end items-center  ">
-<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-80 mx-6 font-bold lg:text-xl text-sm lg:hidden 
 md:block md:text-xl ">MESSAGE</h1>
 <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
 <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
@@ -1032,7 +1032,7 @@ md:block md:text-xl ">MESSAGE</h1>
  
 
  <div className="flex justify-end items-center  ">
-<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-80 mx-6 font-bold lg:text-xl text-sm lg:hidden 
 md:block md:text-xl ">MESSAGE</h1>
 <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
 <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
