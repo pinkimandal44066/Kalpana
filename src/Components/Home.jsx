@@ -117,10 +117,29 @@ const Home = () => {
                  rounded-full p-2 cursor-pointer bg-black absolute md:top-5 md:right-20 right-10 top-0 
                   lg:top-5 lg:right-32"
               />
-              <Link className="font-bold">ABOUT</Link>
-              <Link className="font-bold">AMENITIES</Link>
-              <Link className="font-bold">GALLERY</Link>
-              <Link className="font-bold">OFFER</Link>
+       
+              <Link className="font-bold">HOME</Link>
+              <Link className="font-bold">ALL COMPANIES</Link>
+              <Link className="font-bold">ABOUT US</Link>
+              <Link className="font-bold">CONTACT US</Link>
+              <Link className="font-bold">OUR BLOGS</Link>
+              <Link className="font-bold"> CONNECT WITH US</Link>
+          
+        
+        <div className="flex justify-center mt-0 sm:gap-7 lg:text-2xl text-4xl md:text-2xl md:gap-4 sm:mx-64 mx-20 lg:mx-0 gap-4 md:mx-0 text-center">
+  <div className="rounded-full">
+    <IoLogoYoutube />
+  </div>
+  <div className="rounded-full">
+    <FaFacebook />
+  </div>
+  <div className="rounded-full">
+    <FaInstagramSquare />
+  </div>
+</div>
+
+    
+
             </section>
           </div>
         )}
@@ -165,85 +184,8 @@ items-end justify-end items-center lg:float-right md:float-right mt-4
           </div>
         </div>
 
-        {/* PART3 */}
-       <div className="flex justify-between items-center  ">
-       <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-32 mx-6 font-bold lg:text-xl text-sm ">EXPLORE OUR COMPANYS​</h1>
-       <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
-       <img src={img19} alt=""  className="w-[300px] lg:-ml-[430px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
-       </div>
-    
-        <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
-        {/* <div className="flex flex-col lg:flex-row  
-         items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-20 mt-10 lg:mt-0">
-  <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m">
-  
-    <img src={img3} alt="" className="lg:w-[90%] lg:mt-24" />
-  </div>
-  <div className="lg:w-1/2 px-4 order-2 lg:order-1">
-  
-    <h1 className="text-3xl font-bold mb-2">Hotel Grand</h1>
-    
-    <p className="text-sm mb-4">
-      With ‘Namaste’ as the enduring symbol of its brand experience and
-      ‘Responsible Luxury’ as the guiding premise, HOTEL GRAND are an archetype
-      of the culture and ethos of each destination offering authentic,
-      indigenous luxury experiences which are in harmony with the environment
-      and society. Discover a symphony of flavors crafted by passionate chefs,
-      tantalizing your taste buds with every bite. Immerse yourself in a haven
-      of luxury where comfort meets elegance. Whether savoring exquisite meals
-      or unwinding in lavish accommodations, our establishment promises an
-      unforgettable experience.
-    
-      
-    </p>
-    <div>  <img src={img5} alt="" className="w-10" /></div>
-<div>  </div>
-    
-<button
-          className="text-black flex  border-2 bg-[#DFA627] 
-   shadow-2xl 
-  font-semibold py-1.5 px-6 mt- rounded-sm lg:mx-0 mx-auto
-    "
-        >
-         Call Now
-        </button>
-  </div>
-</div> */}
-
-
-
-  {/* isko bad me check krna hai */}
-
-  
-{/* <div className="flex justify-center flex-col lg:flex-row  
-         items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40 mt-10 lg:mt-0">
-  <div  className=" px-4   ">
+       
  
-  <h1 className="text-3xl font-bold mb-2 mt-8">Hotel Grand</h1>
-  <p className="text-sm mb-4 w-96">
-      With ‘Namaste’ as the enduring symbol of its brand experience and
-      ‘Responsible Luxury’ as the guiding premise, HOTEL GRAND are an archetype
-      of the culture and ethos of each destination offering authentic,
-      indigenous luxury experiences which are in harmony with the environment
-      and society. Discover a symphony of flavors crafted by passionate chefs,
-      tantalizing your taste buds with every bite. Immerse yourself in a haven
-      of luxury where comfort meets elegance. Whether savoring exquisite meals
-      or unwinding in lavish accommodations, our establishment promises an
-      unforgettable experience.
-    
-      
-    </p>
-  </div>
-
-
-  <div>  <img src={img5} alt="" className="w-80 -mt-28  -rotate-3" /></div>
-  <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m">
-  
-  <img src={img3} alt="" className="lg:w-[99%] " />
-</div>
-</div> */}
-
-
 
 
 <Swiper
@@ -254,141 +196,427 @@ items-end justify-end items-center lg:float-right md:float-right mt-4
         modules={[ Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-        <div className="flex justify-center flex-col lg:flex-row  
-         items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0">
-  <div  className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
- 
-  <h1 className="text-3xl font-bold mb-2 mt-8 lg:-mt-10 lg:mx-0 md:mx-0 mx-16 w-full">Hotel Grand</h1>
-  <p className="text-sm mb-4 w-80  lg:w-96 ">
-  It’s a sanctuary of elegance and comfort. From opulent suites to 
-impeccable service, we craft moments that linger in your memory. 
-Discover a world of culinary delights at our restaurants, rejuvenate 
-at our spa, or host unforgettable events in our exquisite venues.
-    
       
-    </p>
+  <SwiperSlide className="lg:block md:block hidden">
+ 
 
-    <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 " />
-  </div>
+        <div className="flex justify-end items-center  ">
+       <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+       md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
+       <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+       <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+       </div>
+    
+        <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
+      
 
 
-  {/* <div>  <img src={img5} alt="" className="w-80 -mt-28  -rotate-3 " /></div> */}
-  <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
   
-  <img src={img3} alt="" className="lg:w-[99%]  lg:mt-14 -mt-10 md:w-96 sm:w-80 w-72" />
-</div>
-</div>
 
-        </SwiperSlide>
 
+<div className="lg:mx-40 p-4 lg:-mt-[79px] md:-mt-4">
+      <div className=" rounded-lg overflow-hidden">
+        <div className="flex  md:flex-row">
+          <div className="flex-1 p-4">
+            <h1 className="text-2xl font-bold lg:block md:hidden">EXPLORE OUR COMPANYS</h1>
+            
+            
+            <div className="mt-4">
+              <h2 className="lg:text-3xl md:text-3xl font-bold mb-2 mt-8 lg:mt-14 
+              lg:mx-4 md:mx-5 mx-16 w-full">HOTEL GRAND</h2>
+              
+              <p className="mt-2 text-gray-600  lg:w-96  md:w-72 ml-4">
+                Its a sanctuary of elegance and comfort. From opulent suites to impeccable service, we craft moments that linger in your memory. Discover a world of culinary delights at our restaurants, rejuvenate at our spa, or host unforgettable events in our exquisite venues.
+              </p>
+              <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:mt-2 lg:mx-6 md:mx-4 md:mt-2 mx-32 " />
+            </div>
+          </div>
+          <div className="flex-1">
+            <img src={img5} alt="Hotel Room" className="w-full  -mt-8 h-full object-cover"/>
+          </div>
+
+          <div className="flex justify-between items-center p-4">
+          <button className="p-2 lg:mt-12">
+          <img src={img3} alt="Hotel Room" className="w-80 h-full"/>
+          </button>
+        
+        </div>
+        </div>
        
-        <SwiperSlide>
-        <div className="flex justify-center flex-col lg:flex-row  
-         items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0">
-  <div  className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
- 
-  <h1 className="text-3xl font-bold mb-2 mt-8 lg:-mt-10 lg:mx-0 md:mx-0 mx-16 w-full">Hotel Grand</h1>
-  <p className="text-sm mb-4 w-80  lg:w-96 ">
-  It’s a sanctuary of elegance and comfort. From opulent suites to 
-impeccable service, we craft moments that linger in your memory. 
-Discover a world of culinary delights at our restaurants, rejuvenate 
-at our spa, or host unforgettable events in our exquisite venues.
-    
-      
-    </p>
-
-    <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 " />
-  </div>
-
-
-  {/* <div>  <img src={img5} alt="" className="w-80 -mt-28  -rotate-3 " /></div> */}
-  <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
-  
-  <img src={img3} alt="" className="lg:w-[99%]  lg:mt-14 -mt-10 md:w-96 sm:w-80 w-72" />
-</div>
-</div>
-
+      </div>
+    </div>
         </SwiperSlide>
+       
 
 
 
-        <SwiperSlide>
-        <div className="flex justify-center flex-col lg:flex-row  
-         items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0">
-  <div  className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <SwiperSlide className="lg:block md:block hidden">
  
-  <h1 className="text-3xl font-bold mb-2 mt-8 lg:-mt-10 lg:mx-0 md:mx-0 mx-16 w-full">Hotel Grand</h1>
-  <p className="text-sm mb-4 w-80  lg:w-96 ">
-  It’s a sanctuary of elegance and comfort. From opulent suites to 
-impeccable service, we craft moments that linger in your memory. 
-Discover a world of culinary delights at our restaurants, rejuvenate 
-at our spa, or host unforgettable events in our exquisite venues.
+
+        <div className="flex justify-end items-center  ">
+       <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+       md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
+       <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+       <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+       </div>
     
+        <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
       
-    </p>
-
-    <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 " />
-  </div>
 
 
-  {/* <div>  <img src={img5} alt="" className="w-80 -mt-28  -rotate-3 " /></div> */}
-  <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
   
-  <img src={img3} alt="" className="lg:w-[99%]  lg:mt-14 -mt-10 md:w-96 sm:w-80 w-72" />
-</div>
-</div>
 
+
+<div className="lg:mx-40 p-4 lg:-mt-[79px] md:-mt-4">
+      <div className=" rounded-lg overflow-hidden">
+        <div className="flex  md:flex-row">
+          <div className="flex-1 p-4">
+            <h1 className="text-2xl font-bold lg:block md:hidden">EXPLORE OUR COMPANYS</h1>
+            
+            
+            <div className="mt-4">
+              <h2 className="lg:text-3xl md:text-3xl font-bold mb-2 mt-8 lg:mt-14 
+              lg:mx-4 md:mx-5 mx-16 w-full">HOTEL GRAND</h2>
+              
+              <p className="mt-2 text-gray-600  lg:w-96  md:w-72 ml-4">
+                Its a sanctuary of elegance and comfort. From opulent suites to impeccable service, we craft moments that linger in your memory. Discover a world of culinary delights at our restaurants, rejuvenate at our spa, or host unforgettable events in our exquisite venues.
+              </p>
+              <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:mt-2 lg:mx-6 md:mx-4 md:mt-2 mx-32 " />
+            </div>
+          </div>
+          <div className="flex-1">
+            <img src={img5} alt="Hotel Room" className="w-full  -mt-8 h-full object-cover"/>
+          </div>
+
+          <div className="flex justify-between items-center p-4">
+          <button className="p-2 lg:mt-12">
+          <img src={img3} alt="Hotel Room" className="w-80 h-full"/>
+          </button>
+        
+        </div>
+        </div>
+       
+      </div>
+    </div>
         </SwiperSlide>
+       
 
 
 
-
-        <SwiperSlide>
-        <div className="flex justify-center flex-col lg:flex-row  
-         items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0">
-  <div  className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+        <SwiperSlide className="lg:block md:block hidden">
  
-  <h1 className="text-3xl font-bold mb-2 mt-8 lg:-mt-10 lg:mx-0 md:mx-0 mx-16 w-full">Hotel Grand</h1>
-  <p className="text-sm mb-4 w-80  lg:w-96 ">
-  It’s a sanctuary of elegance and comfort. From opulent suites to 
-impeccable service, we craft moments that linger in your memory. 
-Discover a world of culinary delights at our restaurants, rejuvenate 
-at our spa, or host unforgettable events in our exquisite venues.
-    
-      
-    </p>
 
-    <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 " />
-  </div>
-
-
-  {/* <div>  <img src={img5} alt="" className="w-80 -mt-28  -rotate-3 " /></div> */}
-  <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
-  
-  <img src={img3} alt="" className="lg:w-[99%]  lg:mt-14 -mt-10 md:w-96 sm:w-80 w-72" />
-</div>
+ <div className="flex justify-end items-center  ">
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
+<img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+<img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
 </div>
 
-        </SwiperSlide>
+ <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
 
+
+
+
+
+
+<div className="lg:mx-40 p-4 lg:-mt-[79px] md:-mt-4">
+<div className=" rounded-lg overflow-hidden">
+ <div className="flex  md:flex-row">
+   <div className="flex-1 p-4">
+     <h1 className="text-2xl font-bold lg:block md:hidden">EXPLORE OUR COMPANYS</h1>
+     
+     
+     <div className="mt-4">
+       <h2 className="lg:text-3xl md:text-3xl font-bold mb-2 mt-8 lg:mt-14 
+       lg:mx-4 md:mx-5 mx-16 w-full">HOTEL GRAND</h2>
+       
+       <p className="mt-2 text-gray-600  lg:w-96  md:w-72 ml-4">
+         Its a sanctuary of elegance and comfort. From opulent suites to impeccable service, we craft moments that linger in your memory. Discover a world of culinary delights at our restaurants, rejuvenate at our spa, or host unforgettable events in our exquisite venues.
+       </p>
+       <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:mt-2 lg:mx-6 md:mx-4 md:mt-2 mx-32 " />
+     </div>
+   </div>
+   <div className="flex-1">
+     <img src={img5} alt="Hotel Room" className="w-full  -mt-8 h-full object-cover"/>
+   </div>
+
+   <div className="flex justify-between items-center p-4">
+   <button className="p-2 lg:mt-12">
+   <img src={img3} alt="Hotel Room" className="w-80 h-full"/>
+   </button>
+ 
+ </div>
+ </div>
+
+</div>
+</div>
+ </SwiperSlide>
+
+
+ <SwiperSlide className="lg:block md:block hidden">
+ 
+
+ <div className="flex justify-end items-center  ">
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
+<img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+<img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+</div>
+
+ <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
+
+
+
+
+
+
+<div className="lg:mx-40 p-4 lg:-mt-[79px] md:-mt-4">
+<div className=" rounded-lg overflow-hidden">
+ <div className="flex  md:flex-row">
+   <div className="flex-1 p-4">
+     <h1 className="text-2xl font-bold lg:block md:hidden">EXPLORE OUR COMPANYS</h1>
+     
+     
+     <div className="mt-4">
+       <h2 className="lg:text-3xl md:text-3xl font-bold mb-2 mt-8 lg:mt-14 
+       lg:mx-4 md:mx-5 mx-16 w-full">HOTEL GRAND</h2>
+       
+       <p className="mt-2 text-gray-600  lg:w-96  md:w-72 ml-4">
+         Its a sanctuary of elegance and comfort. From opulent suites to impeccable service, we craft moments that linger in your memory. Discover a world of culinary delights at our restaurants, rejuvenate at our spa, or host unforgettable events in our exquisite venues.
+       </p>
+       <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:mt-2 lg:mx-6 md:mx-4 md:mt-2 mx-32 " />
+     </div>
+   </div>
+   <div className="flex-1">
+     <img src={img5} alt="Hotel Room" className="w-full  -mt-8 h-full object-cover"/>
+   </div>
+
+   <div className="flex justify-between items-center p-4">
+   <button className="p-2 lg:mt-12">
+   <img src={img3} alt="Hotel Room" className="w-80 h-full"/>
+   </button>
+ 
+ </div>
+ </div>
+
+</div>
+</div>
+ </SwiperSlide>
+
+
+
+
+     
       
 
 
-
-{/* 
-  <div className="swiper-button-next">
-    <FaLongArrowAltRight />
-  </div>
-  <div className="swiper-button-prev">
-    <FaLongArrowAltRight style={{ transform: 'rotate(180deg)' }} />
-  </div> */}
 </Swiper>
 
+ {/* Mobile part */}
+
+
+<Swiper
+        pagination={{
+          type: 'fraction',
+        }}
+        navigation={true}
+        modules={[ Navigation]}
+        className="mySwiper"
+      >
+
+<SwiperSlide className="lg:hidden md:hidden block bg-cover bg-center" style={{ backgroundImage: `url(${img5})` }}>
+  
+<div className="flex justify-end items-center  ">
+  <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-32 mx-6 font-bold lg:text-xl text-sm ">EXPLORE OUR COMPANYS​</h1>
+  <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+  <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+  </div>
+
+   <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
+ 
+        <div className="flex justify-center flex-col lg:flex-row  
+         items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0">
+  <div  className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+ 
+  <h1 className="text-3xl font-bold mb-2 mt-8 lg:-mt-10 lg:mx-0 md:mx-0 mx-16 w-full">Hotel Grand</h1>
+  <p className="text-sm mb-4 w-80  lg:w-96 ">
+  It’s a sanctuary of elegance and comfort. From opulent suites to 
+impeccable service, we craft moments that linger in your memory. 
+Discover a world of culinary delights at our restaurants, rejuvenate 
+at our spa, or host unforgettable events in our exquisite venues.
+    
+      
+    </p>
+
+    <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 " />
+  </div>
 
 
 
-  <div className="bg-[#091D33]  mt-8  lg:block md:block sm:block hidden">
+  <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
+  <img src={img3} alt="" className="lg:w-[99%]  lg:mt-14 -mt-20 md:w-96 sm:w-80 w-72" />
+</div>
+</div>
+
+        </SwiperSlide>
+
+
+        <SwiperSlide className="lg:hidden md:hidden block bg-cover bg-center" style={{ backgroundImage: `url(${img5})` }}> 
+
+<div className="flex justify-end items-center  ">
+  <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-32 mx-6 font-bold lg:text-xl text-sm ">EXPLORE OUR COMPANYS​</h1>
+  <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+  <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+  </div>
+
+   <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
+ 
+        <div className="flex justify-center flex-col lg:flex-row  
+         items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0">
+  <div  className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+ 
+  <h1 className="text-3xl font-bold mb-2 mt-8 lg:-mt-10 lg:mx-0 md:mx-0 mx-16 w-full">Hotel Grand</h1>
+  <p className="text-sm mb-4 w-80  lg:w-96 ">
+  It’s a sanctuary of elegance and comfort. From opulent suites to 
+impeccable service, we craft moments that linger in your memory. 
+Discover a world of culinary delights at our restaurants, rejuvenate 
+at our spa, or host unforgettable events in our exquisite venues.
+    
+      
+    </p>
+
+    <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 " />
+  </div>
+
+
+
+  <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
+  <img src={img3} alt="" className="lg:w-[99%]  lg:mt-14 -mt-20 md:w-96 sm:w-80 w-72" />
+</div>
+</div>
+
+        </SwiperSlide>
+
+
+     
+
+        <SwiperSlide className="lg:hidden md:hidden block bg-cover bg-center" style={{ backgroundImage: `url(${img5})` }}> 
+
+<div className="flex justify-end items-center  ">
+  <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-32 mx-6 font-bold lg:text-xl text-sm ">EXPLORE OUR COMPANYS​</h1>
+  <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+  <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+  </div>
+
+   <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
+ 
+        <div className="flex justify-center flex-col lg:flex-row  
+         items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0">
+  <div  className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+ 
+  <h1 className="text-3xl font-bold mb-2 mt-8 lg:-mt-10 lg:mx-0 md:mx-0 mx-16 w-full">Hotel Grand</h1>
+  <p className="text-sm mb-4 w-80  lg:w-96 ">
+  It’s a sanctuary of elegance and comfort. From opulent suites to 
+impeccable service, we craft moments that linger in your memory. 
+Discover a world of culinary delights at our restaurants, rejuvenate 
+at our spa, or host unforgettable events in our exquisite venues.
+    
+      
+    </p>
+
+    <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 " />
+  </div>
+
+
+
+  <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
+  <img src={img3} alt="" className="lg:w-[99%]  lg:mt-14 -mt-20 md:w-96 sm:w-80 w-72" />
+</div>
+</div>
+
+        </SwiperSlide>
+
+
+
+
+        <SwiperSlide className="lg:hidden md:hidden block bg-cover bg-center" style={{ backgroundImage: `url(${img5})` }}> 
+
+<div className="flex justify-end items-center  ">
+  <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-32 mx-6 font-bold lg:text-xl text-sm ">EXPLORE OUR COMPANYS​</h1>
+  <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+  <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+  </div>
+
+   <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
+ 
+        <div className="flex justify-center flex-col lg:flex-row  
+         items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0">
+  <div  className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+ 
+  <h1 className="text-3xl font-bold mb-2 mt-8 lg:-mt-10 lg:mx-0 md:mx-0 mx-16 w-full">Hotel Grand</h1>
+  <p className="text-sm mb-4 w-80  lg:w-96 ">
+  It’s a sanctuary of elegance and comfort. From opulent suites to 
+impeccable service, we craft moments that linger in your memory. 
+Discover a world of culinary delights at our restaurants, rejuvenate 
+at our spa, or host unforgettable events in our exquisite venues.
+    
+      
+    </p>
+
+    <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 " />
+  </div>
+
+
+
+  <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
+  <img src={img3} alt="" className="lg:w-[99%]  lg:mt-14 -mt-20 md:w-96 sm:w-80 w-72" />
+</div>
+</div>
+
+        </SwiperSlide>
+
+
+      </Swiper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div className="bg-[#091D33]  mt-8 md: lg:-mt-0  lg:block md:block sm:block hidden">
     
   <div className="flex justify-center  gap-20 ">
     <div>
@@ -407,7 +635,7 @@ at our spa, or host unforgettable events in our exquisite venues.
 
     
   </div>
-  <img src={img10} className="w-full lg:-mt-[58%] md:-mt-[80%] sm:-mt-[100%] -mt-[210%]"  />
+  <img src={img10} className="w-full lg:-mt-[52%] md:-mt-[80%] sm:-mt-[100%] -mt-[210%]"  />
 
 
 
@@ -416,7 +644,7 @@ at our spa, or host unforgettable events in our exquisite venues.
 
 
 
-  <div className="flex justify-center  gap-20  ">
+  <div className="flex justify-center   gap-20  ">
     <div>
     <img src={img12} className="w-32 " />
 
@@ -433,14 +661,14 @@ at our spa, or host unforgettable events in our exquisite venues.
 
     
   </div>
-  <img src={img10} className="w-full  lg:-mt-[58%] md:-mt-[80%] sm:-mt-[100%] -mt-[210%]" />
+  <img src={img10} className="w-full  lg:-mt-[52%] md:-mt-[80%] sm:-mt-[100%] -mt-[210%]" />
 
 
 
   </div>
 
  <div className=" lg:block md:block sm:block hidden">
- <div className="flex justify-center bg-[#091D33]   h-[132px] gap-20  ">
+ <div className="flex justify-center bg-[#091D33]   lg:h-[200px] md:h-[200px] sm:h-[200px] gap-20  ">
     <div>
     <img src={img15} className="w-32 " />
 
@@ -448,7 +676,7 @@ at our spa, or host unforgettable events in our exquisite venues.
     <img src={img11} className=" " />
 
     <div>
-    <img src={img16} className="w-32 " />
+    <img src={img16} className="w-32 -mt-3 " />
     </div>
     <img src={img11} className=" " />
     <div>
@@ -624,13 +852,6 @@ In Every Business Segment.</p>
 
 
 
-    <div className="flex justify-between items-center  ">
-       <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-32 mx-6 font-bold lg:text-xl text-sm ">Message​</h1>
-       <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
-       <img src={img19} alt=""  className="w-[300px] lg:-ml-[430px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
-       </div>
-    
-        <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
 
 
 
@@ -642,12 +863,242 @@ In Every Business Segment.</p>
         modules={[ Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        
+
+
+        <SwiperSlide className="lg:block md:block hidden">
+ 
+
+ <div className="flex justify-end items-center  ">
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+md:block md:text-xl ">MESSAGE</h1>
+<img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+<img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+</div>
+
+ <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
+
+
+
+
+
+
+<div className="lg:mx-40 p-4 lg:-mt-[91px] md:-mt-4">
+<div className=" rounded-lg overflow-hidden">
+ <div className="flex  md:flex-row">
+   <div className="flex-1 p-4">
+     <h1 className="text-2xl font-bold lg:block md:hidden">MESSAGE</h1>
+     
+     
+     <div className="mt-4">
+       <h2 className="lg:text-3xl md:text-3xl font-bold mb-2 mt-8 lg:mt-14 
+       lg:mx-4 md:mx-5 mx-16 w-full">Mr. Hironmoy DAs</h2>
+       
+       <p className="mt-2 text-gray-600  lg:w-96  md:w-72 ml-4">
+       I am honored to extend a warm welcome to all of you, whether you are a returning guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a memorable experience. Kalpana Inn has a long and proud tradition of hospitality. [Optional: Briefly mention the inn's history or a core value]. We are committed to providing exceptional service, comfortable accommodations, and a welcoming atmosphere that makes you feel right at home.
+       </p>
+       <h1 className="lg:mx-36 md:mx-24 md:mt-3 mx-[118px]">-Chairman</h1>
+      
+     </div>
+   </div>
+   <div className="flex-1">
+     <img src={img5} alt="Hotel Room" className="w-full  -mt-8 h-full object-cover"/>
+   </div>
+
+   <div className="flex justify-between items-center p-4">
+   <button className="p-2 lg:mt-12">
+   <img src={img18} alt="Hotel Room" className="w-72 h-full"/>
+   </button>
+ 
+ </div>
+ </div>
+
+</div>
+</div>
+ </SwiperSlide>
+
+
+
+ <SwiperSlide className="lg:block md:block hidden">
+ 
+
+ <div className="flex justify-end items-center  ">
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+md:block md:text-xl ">MESSAGE</h1>
+<img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+<img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+</div>
+
+ <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
+
+
+
+
+
+
+<div className="lg:mx-40 p-4 lg:-mt-[91px] md:-mt-4">
+<div className=" rounded-lg overflow-hidden">
+ <div className="flex  md:flex-row">
+   <div className="flex-1 p-4">
+     <h1 className="text-2xl font-bold lg:block md:hidden">MESSAGE</h1>
+     
+     
+     <div className="mt-4">
+       <h2 className="lg:text-3xl md:text-3xl font-bold mb-2 mt-8 lg:mt-14 
+       lg:mx-4 md:mx-5 mx-16 w-full">Mr. Hironmoy DAs</h2>
+       
+       <p className="mt-2 text-gray-600  lg:w-96  md:w-72 ml-4">
+       I am honored to extend a warm welcome to all of you, whether you are a returning guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a memorable experience. Kalpana Inn has a long and proud tradition of hospitality. [Optional: Briefly mention the inn's history or a core value]. We are committed to providing exceptional service, comfortable accommodations, and a welcoming atmosphere that makes you feel right at home.
+       </p>
+       <h1 className="lg:mx-36 md:mx-24 md:mt-3 mx-[118px]">-Chairman</h1>
+      
+     </div>
+   </div>
+   <div className="flex-1">
+     <img src={img5} alt="Hotel Room" className="w-full  -mt-8 h-full object-cover"/>
+   </div>
+
+   <div className="flex justify-between items-center p-4">
+   <button className="p-2 lg:mt-12">
+   <img src={img18} alt="Hotel Room" className="w-72 h-full"/>
+   </button>
+ 
+ </div>
+ </div>
+
+</div>
+</div>
+ </SwiperSlide>
+
+
+
+
+
+ <SwiperSlide className="lg:block md:block hidden">
+ 
+
+ <div className="flex justify-end items-center  ">
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+md:block md:text-xl ">MESSAGE</h1>
+<img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+<img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+</div>
+
+ <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
+
+
+
+
+
+
+<div className="lg:mx-40 p-4 lg:-mt-[91px] md:-mt-4">
+<div className=" rounded-lg overflow-hidden">
+ <div className="flex  md:flex-row">
+   <div className="flex-1 p-4">
+     <h1 className="text-2xl font-bold lg:block md:hidden">MESSAGE</h1>
+     
+     
+     <div className="mt-4">
+       <h2 className="lg:text-3xl md:text-3xl font-bold mb-2 mt-8 lg:mt-14 
+       lg:mx-4 md:mx-5 mx-16 w-full">Mr. Hironmoy DAs</h2>
+       
+       <p className="mt-2 text-gray-600  lg:w-96  md:w-72 ml-4">
+       I am honored to extend a warm welcome to all of you, whether you are a returning guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a memorable experience. Kalpana Inn has a long and proud tradition of hospitality. [Optional: Briefly mention the inn's history or a core value]. We are committed to providing exceptional service, comfortable accommodations, and a welcoming atmosphere that makes you feel right at home.
+       </p>
+       <h1 className="lg:mx-36 md:mx-24 md:mt-3 mx-[118px]">-Chairman</h1>
+      
+     </div>
+   </div>
+   <div className="flex-1">
+     <img src={img5} alt="Hotel Room" className="w-full  -mt-8 h-full object-cover"/>
+   </div>
+
+   <div className="flex justify-between items-center p-4">
+   <button className="p-2 lg:mt-12">
+   <img src={img18} alt="Hotel Room" className="w-72 h-full"/>
+   </button>
+ 
+ </div>
+ </div>
+
+</div>
+</div>
+ </SwiperSlide>
+
+
+
+
+ <SwiperSlide className="lg:block md:block hidden">
+ 
+
+ <div className="flex justify-end items-center  ">
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-14 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+md:block md:text-xl ">MESSAGE</h1>
+<img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+<img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+</div>
+
+ <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
+
+
+
+
+
+
+<div className="lg:mx-40 p-4 lg:-mt-[91px] md:-mt-4">
+<div className=" rounded-lg overflow-hidden">
+ <div className="flex  md:flex-row">
+   <div className="flex-1 p-4">
+     <h1 className="text-2xl font-bold lg:block md:hidden">MESSAGE</h1>
+     
+     
+     <div className="mt-4">
+       <h2 className="lg:text-3xl md:text-3xl font-bold mb-2 mt-8 lg:mt-14 
+       lg:mx-4 md:mx-5 mx-16 w-full">Mr. Hironmoy DAs</h2>
+       
+       <p className="mt-2 text-gray-600  lg:w-96  md:w-72 ml-4">
+       I am honored to extend a warm welcome to all of you, whether you are a returning guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a memorable experience. Kalpana Inn has a long and proud tradition of hospitality. [Optional: Briefly mention the inn's history or a core value]. We are committed to providing exceptional service, comfortable accommodations, and a welcoming atmosphere that makes you feel right at home.
+       </p>
+       <h1 className="lg:mx-36 md:mx-24 md:mt-3 mx-[118px]">-Chairman</h1>
+      
+     </div>
+   </div>
+   <div className="flex-1">
+     <img src={img5} alt="Hotel Room" className="w-full  -mt-8 h-full object-cover"/>
+   </div>
+
+   <div className="flex justify-between items-center p-4">
+   <button className="p-2 lg:mt-12">
+   <img src={img18} alt="Hotel Room" className="w-72 h-full"/>
+   </button>
+ 
+ </div>
+ </div>
+
+</div>
+</div>
+ </SwiperSlide>
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* MOBILE */}
+ 
+        {/* <SwiperSlide>
         <div className="flex justify-center flex-col lg:flex-row  
          items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0">
   <div  className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
  
-  <h1 className="text-3xl font-bold mb-2 -mt-7 lg:-mt-40 lg:mx-0 md:mx-0 mx-8 w-full">Mr. Hironmoy DAs</h1>
+  <h1 className="text-3xl font-bold mb-2 -mt-7 lg:mt-10 lg:mx-0 md:mx-0 mx-8 w-full">Mr. Hironmoy DAs</h1>
   <p className="text-sm mb-4 w-80  lg:w-96 ">
   I am honored to extend a warm welcome to all of you, whether you are a returning
 guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a
@@ -660,45 +1111,14 @@ right at home.
       
     </p>
 <h1 className="lg:mx-40 mx-28 ">-Chairman</h1>
-    {/* <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 " /> */}
+   
   </div>
 
 
-  {/* <div>  <img src={img5} alt="" className="w-80 -mt-28  -rotate-3 " /></div> */}
+
   <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
   
-  <img src={img18} alt="" className="lg:w-[99%]  lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72" />
-</div>
-</div>
-
-        </SwiperSlide>
-
-        <SwiperSlide>
-        <div className="flex justify-center flex-col lg:flex-row  
-         items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0">
-  <div  className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
- 
-  <h1 className="text-3xl font-bold mb-2 -mt-7  lg:-mt-40 lg:mx-0 md:mx-0 mx-8 w-full">Mr. Hironmoy DAs</h1>
-  <p className="text-sm mb-4 w-80  lg:w-96 ">
-  I am honored to extend a warm welcome to all of you, whether you are a returning
-guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a
-memorable experience.
-Kalpana Inn has a long and proud tradition of hospitality. [Optional: Briefly mention
-the inns history or a core value]. We are committed to providing exceptional service,
-comfortable accommodations, and a welcoming atmosphere that makes you feel
-right at home.
-    
-      
-    </p>
-<h1 className="lg:mx-40 mx-28 ">-Chairman</h1>
-    {/* <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 " /> */}
-  </div>
-
-
-  {/* <div>  <img src={img5} alt="" className="w-80 -mt-28  -rotate-3 " /></div> */}
-  <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
-  
-  <img src={img18} alt="" className="lg:w-[99%]  lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72" />
+  <img src={img18} alt="" className="lg:w-[70%]  lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72" />
 </div>
 </div>
 
@@ -711,7 +1131,7 @@ right at home.
          items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0">
   <div  className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
  
-  <h1 className="text-3xl font-bold mb-2 -mt-7  lg:-mt-40 lg:mx-0 md:mx-0 mx-8 w-full">Mr. Hironmoy DAs</h1>
+  <h1 className="text-3xl font-bold mb-2 -mt-7 lg:mt-10 lg:mx-0 md:mx-0 mx-8 w-full">Mr. Hironmoy DAs</h1>
   <p className="text-sm mb-4 w-80  lg:w-96 ">
   I am honored to extend a warm welcome to all of you, whether you are a returning
 guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a
@@ -724,14 +1144,14 @@ right at home.
       
     </p>
 <h1 className="lg:mx-40 mx-28 ">-Chairman</h1>
-    {/* <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 " /> */}
+   
   </div>
 
 
-  {/* <div>  <img src={img5} alt="" className="w-80 -mt-28  -rotate-3 " /></div> */}
+  
   <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
   
-  <img src={img18} alt="" className="lg:w-[99%]  lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72" />
+  <img src={img18} alt="" className="lg:w-[70%]  lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72" />
 </div>
 </div>
 
@@ -739,12 +1159,12 @@ right at home.
 
 
 
-        <SwiperSlide>
+          <SwiperSlide>
         <div className="flex justify-center flex-col lg:flex-row  
          items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0">
   <div  className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
  
-  <h1 className="text-3xl font-bold mb-2 -mt-7  lg:-mt-40 lg:mx-0 md:mx-0 mx-8 w-full">Mr. Hironmoy DAs</h1>
+  <h1 className="text-3xl font-bold mb-2 -mt-7 lg:mt-10 lg:mx-0 md:mx-0 mx-8 w-full">Mr. Hironmoy DAs</h1>
   <p className="text-sm mb-4 w-80  lg:w-96 ">
   I am honored to extend a warm welcome to all of you, whether you are a returning
 guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a
@@ -757,32 +1177,210 @@ right at home.
       
     </p>
 <h1 className="lg:mx-40 mx-28 ">-Chairman</h1>
-    {/* <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 " /> */}
+    
   </div>
 
 
-  {/* <div>  <img src={img5} alt="" className="w-80 -mt-28  -rotate-3 " /></div> */}
+  
   <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
   
-  <img src={img18} alt="" className="lg:w-[99%]  lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72" />
+  <img src={img18} alt="" className="lg:w-[70%]  lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72" />
 </div>
 </div>
 
-        </SwiperSlide>
+        </SwiperSlide> */}
       
 
 
 
-{/* 
-  <div className="swiper-button-next">
-    <FaLongArrowAltRight />
-  </div>
-  <div className="swiper-button-prev">
-    <FaLongArrowAltRight style={{ transform: 'rotate(180deg)' }} />
-  </div> */}
+
 </Swiper>
 
 
+{/* mobile paet 2 */}
+
+
+
+<Swiper
+        pagination={{
+          type: 'fraction',
+        }}
+        navigation={true}
+        modules={[ Navigation]}
+        className="mySwiper"
+      >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<SwiperSlide className="lg:hidden md:hidden block" style={{ backgroundImage: `url(${img5})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+  <div className="flex justify-end items-center">
+    <h1 className="lg:mt-8 mt-6 lg:mx-32 md:mx-32 mx-28 font-bold lg:text-xl text-sm">MESSAGE</h1>
+    <img src={img19} alt="" className="w-[300px] lg:block md:block sm:block hidden" />
+    <img src={img19} alt="" className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px]" />
+  </div>
+
+  <img src={img4} alt="" className="w-full lg:mt-0 mt-4" />
+
+  <div className="flex justify-center flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40 mt-10 lg:mt-0">
+    <div className="lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+      <h1 className="text-3xl font-bold mb-2 mt-0 lg:-mt-10 lg:mx-0 md:mx-0 mx-8 w-full">Mr. Hironmoy DAs</h1>
+      <p className="text-sm mb-4 w-80 lg:w-96">
+        I am honored to extend a warm welcome to all of you, whether you are a returning guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a memorable experience. Kalpana Inn has a long and proud tradition of hospitality. [Optional: Briefly mention the inn's history or a core value]. We are committed to providing exceptional service, comfortable accommodations, and a welcoming atmosphere that makes you feel right at home.
+      </p>
+      <h1 className="lg:mx-40 mx-[118px]">-Chairman</h1>
+    </div>
+
+    <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m">
+      <img src={img18} alt="" className="lg:w-[99%] lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72" />
+    </div>
+  </div>
+</SwiperSlide>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<SwiperSlide className="lg:hidden md:hidden block bg-cover bg-center" style={{ backgroundImage: `url(${img5})` }}>
+  <div className="flex justify-end items-center">
+    <h1 className="lg:mt-8 mt-6 lg:mx-32 md:mx-32 mx-28 font-bold lg:text-xl text-sm">MESSAGE</h1>
+    <img src={img19} alt="" className="w-[300px] lg:block md:block sm:block hidden" />
+    <img src={img19} alt="" className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px]" />
+  </div>
+
+  <img src={img4} alt="" className="w-full lg:mt-0 mt-4" />
+
+  <div className="flex justify-center flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40 mt-10 lg:mt-0">
+    <div className="lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+      <h1 className="text-3xl font-bold mb-2 mt-0 lg:-mt-10 lg:mx-0 md:mx-0 mx-8 w-full">Mr. Hironmoy DAs</h1>
+      <p className="text-sm mb-4 w-80 lg:w-96">
+        I am honored to extend a warm welcome to all of you, whether you are a returning guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a memorable experience. Kalpana Inn has a long and proud tradition of hospitality. [Optional: Briefly mention the inn's history or a core value]. We are committed to providing exceptional service, comfortable accommodations, and a welcoming atmosphere that makes you feel right at home.
+      </p>
+      <h1 className="lg:mx-40 mx-[118px]">-Chairman</h1>
+    </div>
+
+    <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m">
+      <img src={img18} alt="" className="lg:w-[99%] lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72" />
+    </div>
+  </div>
+</SwiperSlide>
+
+
+<SwiperSlide className="lg:hidden md:hidden block bg-cover bg-center" style={{ backgroundImage: `url(${img5})` }}>
+  <div className="flex justify-end items-center">
+    <h1 className="lg:mt-8 mt-6 lg:mx-32 md:mx-32 mx-28 font-bold lg:text-xl text-sm">MESSAGE</h1>
+    <img src={img19} alt="" className="w-[300px] lg:block md:block sm:block hidden" />
+    <img src={img19} alt="" className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px]" />
+  </div>
+
+  <img src={img4} alt="" className="w-full lg:mt-0 mt-4" />
+
+  <div className="flex justify-center flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40 mt-10 lg:mt-0">
+    <div className="lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+      <h1 className="text-3xl font-bold mb-2 mt-0 lg:-mt-10 lg:mx-0 md:mx-0 mx-8 w-full">Mr. Hironmoy DAs</h1>
+      <p className="text-sm mb-4 w-80 lg:w-96">
+        I am honored to extend a warm welcome to all of you, whether you are a returning guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a memorable experience. Kalpana Inn has a long and proud tradition of hospitality. [Optional: Briefly mention the inn's history or a core value]. We are committed to providing exceptional service, comfortable accommodations, and a welcoming atmosphere that makes you feel right at home.
+      </p>
+      <h1 className="lg:mx-40 mx-[118px]">-Chairman</h1>
+    </div>
+
+    <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m">
+      <img src={img18} alt="" className="lg:w-[99%] lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72" />
+    </div>
+  </div>
+</SwiperSlide>
+
+
+
+<SwiperSlide className="lg:hidden md:hidden block bg-cover bg-center" style={{ backgroundImage: `url(${img5})` }}>
+  <div className="flex justify-end items-center">
+    <h1 className="lg:mt-8 mt-6 lg:mx-32 md:mx-32 mx-28 font-bold lg:text-xl text-sm">MESSAGE</h1>
+    <img src={img19} alt="" className="w-[300px] lg:block md:block sm:block hidden" />
+    <img src={img19} alt="" className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px]" />
+  </div>
+
+  <img src={img4} alt="" className="w-full lg:mt-0 mt-4" />
+
+  <div className="flex justify-center flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40 mt-10 lg:mt-0">
+    <div className="lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+      <h1 className="text-3xl font-bold mb-2 mt-0 lg:-mt-10 lg:mx-0 md:mx-0 mx-8 w-full">Mr. Hironmoy DAs</h1>
+      <p className="text-sm mb-4 w-80 lg:w-96">
+        I am honored to extend a warm welcome to all of you, whether you are a returning guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a memorable experience. Kalpana Inn has a long and proud tradition of hospitality. [Optional: Briefly mention the inn's history or a core value]. We are committed to providing exceptional service, comfortable accommodations, and a welcoming atmosphere that makes you feel right at home.
+      </p>
+      <h1 className="lg:mx-40 mx-[118px]">-Chairman</h1>
+    </div>
+
+    <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m">
+      <img src={img18} alt="" className="lg:w-[99%] lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72" />
+    </div>
+  </div>
+</SwiperSlide>
+
+
+
+     
+<SwiperSlide className="lg:hidden md:hidden block bg-cover bg-center" style={{ backgroundImage: `url(${img5})` }}>
+  <div className="flex justify-end items-center">
+    <h1 className="lg:mt-8 mt-6 lg:mx-32 md:mx-32 mx-28 font-bold lg:text-xl text-sm">MESSAGE</h1>
+    <img src={img19} alt="" className="w-[300px] lg:block md:block sm:block hidden" />
+    <img src={img19} alt="" className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px]" />
+  </div>
+
+  <img src={img4} alt="" className="w-full lg:mt-0 mt-4" />
+
+  <div className="flex justify-center flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40 mt-10 lg:mt-0">
+    <div className="lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+      <h1 className="text-3xl font-bold mb-2 mt-0 lg:-mt-10 lg:mx-0 md:mx-0 mx-8 w-full">Mr. Hironmoy DAs</h1>
+      <p className="text-sm mb-4 w-80 lg:w-96">
+        I am honored to extend a warm welcome to all of you, whether you are a returning guest seeking the comforts of Kalpana Inn or a new visitor about to embark on a memorable experience. Kalpana Inn has a long and proud tradition of hospitality. [Optional: Briefly mention the inn's history or a core value]. We are committed to providing exceptional service, comfortable accommodations, and a welcoming atmosphere that makes you feel right at home.
+      </p>
+      <h1 className="lg:mx-40 mx-[118px]">-Chairman</h1>
+    </div>
+
+    <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m">
+      <img src={img18} alt="" className="lg:w-[99%] lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72" />
+    </div>
+  </div>
+</SwiperSlide>
+
+
+
+
+
+
+
+      </Swiper>
 
 
 {/* Footer */}
@@ -867,7 +1465,7 @@ right at home.
 
 
 
-<div className="lg:mt-1 md:mt-1 sm:mt-4 mt-8">
+<div className="lg:mt-14 md:mt-1 sm:mt-4 mt-8">
   <div className="bg-[#091D33] text-white py-8">
     <div className="max-w-screen-xl lg:mx-20 mx-5 md:mx-10 lg:px-20 md:px-20 flex flex-col md:flex-row">
       
@@ -968,10 +1566,33 @@ right at home.
 
 
 
-    </div>
-  </div>
-</div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    </div>
+
+    
+  </div>
+
+  
+</div>
 
 
 
