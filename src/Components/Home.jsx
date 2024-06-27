@@ -197,7 +197,7 @@ items-end justify-end items-center lg:float-right md:float-right mt-4
         className="mySwiper"
       >
       
-  <SwiperSlide className="lg:block md:block hidden">
+  {/* <SwiperSlide className="lg:block md:block hidden">
  
 
         <div className="flex justify-end items-center  ">
@@ -246,7 +246,7 @@ items-end justify-end items-center lg:float-right md:float-right mt-4
       </div>
     </div>
         </SwiperSlide>
-       
+        */}
 
 
 
@@ -265,61 +265,129 @@ items-end justify-end items-center lg:float-right md:float-right mt-4
 
 
 
-   
-        <SwiperSlide className="lg:block md:block hidden">
+<SwiperSlide className="lg:block md:block hidden">
  
 
-        <div className="flex justify-end items-center  ">
-       <h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-28 mx-6 font-bold lg:text-xl text-sm lg:hidden 
-       md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
-       <img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
-       <img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
-       </div>
-    
-        <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
-      
+ <div className="flex justify-end items-center  ">
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-20 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
+<img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+<img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+</div>
+
+ <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
 
 
-  
+
 
 
 <div className="lg:mx-40 p-4 lg:-mt-[79px] md:-mt-4">
-      <div className=" rounded-lg overflow-hidden">
-        <div className="flex  md:flex-row">
-          <div className="flex-1 p-4">
-            <h1 className="text-2xl font-bold lg:block md:hidden">EXPLORE OUR COMPANYS</h1>
-            
-            
-            <div className="mt-4">
-              <h2 className="lg:text-3xl md:text-3xl font-bold mb-2 mt-8 lg:mt-14 
-              lg:mx-4 md:mx-5 mx-16 w-full">HOTEL GRAND</h2>
-              
-              <p className="mt-2 text-gray-600  lg:w-96  md:w-72 ml-4">
-                Its a sanctuary of elegance and comfort. From opulent suites to impeccable service, we craft moments that linger in your memory. Discover a world of culinary delights at our restaurants, rejuvenate at our spa, or host unforgettable events in our exquisite venues.
-              </p>
-              <img src={img6} alt="" className="lg:w-5 md:w-5 w-8 lg:mt-2 lg:mx-6 md:mx-4 md:mt-2 mx-32 " />
-            </div>
-          </div>
-          <div className="flex-1">
-            <img src={img5} alt="Hotel Room" className="w-full  -mt-8 h-full object-cover"/>
-          </div>
+<div className=" rounded-lg overflow-hidden">
+ <div className="flex  md:flex-row">
+   <div className="flex-1 p-4">
+     <h1 className="text-2xl font-bold lg:block md:hidden">EXPLORE OUR COMPANYS</h1>
+     
+     
+     <div className="mt-4">
+       <h2 className="lg:text-3xl md:text-3xl font-bold mb-2 mt-8 lg:mt-14 
+       lg:mx-4 md:mx-5 mx-16 w-full ">HOTEL GRAND</h2>
+       
+       <p className="mt-2 text-gray-600  md:w-[290px]
+       lg:w-[400px] lg:text-base  ml-4  ">
+         Its a sanctuary of elegance and comfort. From opulent suites to impeccable service, we craft moments that linger in your memory. Discover a world of culinary delights at our restaurants, rejuvenate at our spa, or host unforgettable events in our exquisite venues.
+       </p>
+       <img src={img6} alt="" className="lg:w-6 md:w-5 w-8 lg:mt-2 lg:mx-5 md:mx-4 md:mt-2 mx-32 " />
+     </div>
+   </div>
+   <div className="flex-1">
+     <img src={img5} alt="Hotel Room" className="w-full -rotate-6 lg:h-[420px]  md:-mt-14 md:h-[370px] lg:-mt-16 lg:-ml-10 
+      -mt-8 h-full md:-ml-12 object-cover "/>
+   </div>
 
-          <div className="flex justify-between items-center p-4">
-          <button className="p-2 lg:mt-12">
-          <img src={img3} alt="Hotel Room" className="w-80 h-full"/>
-          </button>
-        
-        </div>
-        </div>
+   <div className="flex justify-between items-center p-4">
+   <button className="p-2 lg:mt-0  ">
+   <img src={img3} alt="Hotel Room" className="w-80 lg:w-72 md:-mt-6 lg:-mt-0
+    h-full "/>
+   </button>
+ 
+ </div>
+ </div>
+
+</div>
+</div>
+ </SwiperSlide>
+
        
-      </div>
-    </div>
-        </SwiperSlide>
-       
+
+
 
 
 
         <SwiperSlide className="lg:block md:block hidden">
+ 
+
+ <div className="flex justify-end items-center  ">
+<h1 className="lg:mt-8 mt-6  lg:mx-32 md:mx-20 mx-6 font-bold lg:text-xl text-sm lg:hidden 
+md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
+<img src={img19} alt=""  className="w-[300px]  lg:block md:block sm:block hidden  "/>
+<img src={img19} alt=""  className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "/>
+</div>
+
+ <img src={img4} alt=""  className="w-full lg:mt-0 mt-4"/>
+
+
+
+
+
+<div className="lg:mx-40 p-4 lg:-mt-[79px] md:-mt-4">
+<div className=" rounded-lg overflow-hidden">
+ <div className="flex  md:flex-row">
+   <div className="flex-1 p-4">
+     <h1 className="text-2xl font-bold lg:block md:hidden">EXPLORE OUR COMPANYS</h1>
+     
+     
+     <div className="mt-4">
+       <h2 className="lg:text-3xl md:text-3xl font-bold mb-2 mt-8 lg:mt-14 
+       lg:mx-4 md:mx-5 mx-16 w-full ">HOTEL GRAND</h2>
+       
+       <p className="mt-2 text-gray-600  md:w-[290px]
+       lg:w-[400px] lg:text-base  ml-4  ">
+         Its a sanctuary of elegance and comfort. From opulent suites to impeccable service, we craft moments that linger in your memory. Discover a world of culinary delights at our restaurants, rejuvenate at our spa, or host unforgettable events in our exquisite venues.
+       </p>
+       <img src={img6} alt="" className="lg:w-6 md:w-5 w-8 lg:mt-2 lg:mx-5 md:mx-4 md:mt-2 mx-32 " />
+     </div>
+   </div>
+   <div className="flex-1">
+     <img src={img5} alt="Hotel Room" className="w-full -rotate-6 lg:h-[420px]  md:-mt-14 md:h-[370px] lg:-mt-16 lg:-ml-10 
+      -mt-8 h-full md:-ml-12 object-cover "/>
+   </div>
+
+   <div className="flex justify-between items-center p-4">
+   <button className="p-2 lg:mt-0  ">
+   <img src={img3} alt="Hotel Room" className="w-80 lg:w-72 md:-mt-6 lg:-mt-0
+    h-full "/>
+   </button>
+ 
+ </div>
+ </div>
+
+</div>
+</div>
+ </SwiperSlide>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {/* <SwiperSlide className="lg:block md:block hidden">
  
 
  <div className="flex justify-end items-center  ">
@@ -367,10 +435,10 @@ md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
 
 </div>
 </div>
- </SwiperSlide>
+ </SwiperSlide> */}
 
 
- <SwiperSlide className="lg:block md:block hidden">
+ {/* <SwiperSlide className="lg:block md:block hidden">
  
 
  <div className="flex justify-end items-center  ">
@@ -418,7 +486,7 @@ md:block md:text-xl ">EXPLORE OUR COMPANYS​</h1>
 
 </div>
 </div>
- </SwiperSlide>
+ </SwiperSlide> */}
 
 
 
@@ -616,7 +684,7 @@ at our spa, or host unforgettable events in our exquisite venues.
 
 
 
-  <div className="bg-[#091D33]  mt-8 md: lg:-mt-0  lg:block md:block sm:block hidden">
+  <div className="bg-[#091D33]  mt-8 md: lg:-mt-4 overflow-hidden lg:block md:block sm:block hidden">
     
   <div className="flex justify-center  gap-20 ">
     <div>
@@ -887,7 +955,7 @@ md:block md:text-xl ">MESSAGE</h1>
 <div className=" rounded-lg overflow-hidden">
  <div className="flex  md:flex-row">
    <div className="flex-1 p-4">
-     <h1 className="text-2xl font-bold lg:block md:hidden">MESSAGE</h1>
+     <h1 className="text-2xl font-bold mt-3 lg:block md:hidden">MESSAGE</h1>
      
      
      <div className="mt-4">
@@ -902,11 +970,11 @@ md:block md:text-xl ">MESSAGE</h1>
      </div>
    </div>
    <div className="flex-1">
-     <img src={img5} alt="Hotel Room" className="w-full  -mt-8 h-full object-cover"/>
+     <img src={img5} alt="Hotel Room" className="w-full  -rotate-6 -mt-8 h-full object-cover"/>
    </div>
 
    <div className="flex justify-between items-center p-4">
-   <button className="p-2 lg:mt-12">
+   <button className="p-2 lg:mt-24">
    <img src={img18} alt="Hotel Room" className="w-72 h-full"/>
    </button>
  
@@ -1462,9 +1530,51 @@ right at home.
 
 
 
+    {/* <title>Hotel Grand</title>
+   
+<body class="">
+
+    <section class="max-w-7xl mx-auto p-6">
+        <div class=" overflow-hidden">
+            <div class="px-6 py-4">
+         
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-semibold mb-2">HOTEL GRAND</h3>
+                        <p class="text-gray-700 mb-4">
+                            It's a sanctuary of elegance and comfort. From opulent suites to impeccable service, we craft moments that linger in your memory. Discover a world of culinary delights at our restaurants, rejuvenate at our spa, or host unforgettable events in our exquisite venues.
+                        </p>
+                   
+     
+                    </div>
+
+                    <div class="md:w-1/3 mt-4 md:mt-0 md:flex justify-center">
+                        
+                        <img src={img5} class="w-full md:w-2/3" alt="Image 5"/>
+                    </div>
+    
+                    <div class="md:w-1/2 mt-4 md:mt-0 md:ml-4">
+                        <img src={img3} alt=""/>
+                    </div>
+      
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+</body> */}
 
 
 
+
+
+
+
+
+
+{/* 
 <div className="lg:mt-14 md:mt-1 sm:mt-4 mt-8">
   <div className="bg-[#091D33] text-white py-8">
     <div className="max-w-screen-xl lg:mx-20 mx-5 md:mx-10 lg:px-20 md:px-20 flex flex-col md:flex-row">
@@ -1592,7 +1702,7 @@ right at home.
   </div>
 
   
-</div>
+</div> */}
 
 
 
