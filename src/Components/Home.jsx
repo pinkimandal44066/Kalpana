@@ -1000,7 +1000,7 @@ md:block md:text-xl "
     
     <div className="flex justify-center items-center md:-ml-5 sm:ml-5 ">
       
-<img src={Hironmoy} alt="" className=" lg:w-[900px] lg:-mt-[122px] md:-mt-[133px] sm:-mt-[101px] " />
+<img src={Hironmoy} alt="" className=" lg:w-[900px] lg:-mt-[122px] md:-mt-[136px] sm:-mt-[101px] " />
 
 </div>
 
