@@ -53,6 +53,7 @@ import allhotel from '../../public/allhotel.png';
 import Hironmoy from '../../public/Hironmoy.png';
 import Group from '../../public/Group.png';
 import Mobilegroup from '../../public/Mobilegroup.png';
+import newgroup from '../../public/newgroup.jpeg';
 // import './styles.css';
 
 // import required modules
@@ -365,7 +366,7 @@ md:block md:text-xl "
       >
       
     
-      <SwiperSlide>    
+      {/* <SwiperSlide>    
     
     <div className=" lg:block md:block sm:block hidden">
     <img src={img4} alt="" className="w-full  lg:mt-16  md:mt-[50px] sm:mt-[70px]" />
@@ -379,18 +380,18 @@ md:block md:text-xl "
 
     
     </div>
-    </SwiperSlide>
+    </SwiperSlide> */}
 
 
 
         <SwiperSlide>    
     
     <div className=" lg:block md:block sm:block hidden">
-    <img src={img4} alt="" className="w-full  lg:mt-16  md:mt-[50px] sm:mt-[70px]" />
+    <img src={img4} alt="" className="w-full  lg:mt-16  md:mt-[90px] sm:mt-[70px]" />
     
     <div className="flex justify-center items-center md:-ml-5 sm:ml-5 ">
       
-<img src={allhotel} alt="" className=" lg:w-[900px] lg:-mt-[126px] md:-mt-[110px] sm:-mt-[103px] " />
+<img src={allhotel} alt="" className=" lg:w-[900px] lg:-mt-[126px] md:-mt-[141px] sm:-mt-[103px] " />
 
 </div>
 
@@ -995,11 +996,11 @@ md:block md:text-xl "
        <SwiperSlide>    
     
     <div className=" lg:block md:block sm:block hidden">
-    <img src={img4} alt="" className="w-full  lg:mt-16  md:mt-[50px] sm:mt-[70px]" />
+    <img src={img4} alt="" className="w-full  lg:mt-16  md:mt-[90px] sm:mt-[70px]" />
     
     <div className="flex justify-center items-center md:-ml-5 sm:ml-5 ">
       
-<img src={Hironmoy} alt="" className=" lg:w-[900px] lg:-mt-[122px] md:-mt-[108px] sm:-mt-[101px] " />
+<img src={Hironmoy} alt="" className=" lg:w-[900px] lg:-mt-[122px] md:-mt-[138px] sm:-mt-[101px] " />
 
 </div>
 
@@ -1010,7 +1011,7 @@ md:block md:text-xl "
 
 
 
-        <SwiperSlide>    
+        {/* <SwiperSlide>    
     
         <div className=" lg:block md:block sm:block hidden">
         <img src={img4} alt="" className="w-full  lg:mt-16  md:mt-[50px] sm:mt-[70px]" />
@@ -1024,7 +1025,7 @@ md:block md:text-xl "
 
         
         </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
 
 
