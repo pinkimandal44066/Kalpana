@@ -6,7 +6,7 @@ import img20 from '../../public/img20.png';
 const Footer = () => {
   return (
     <>
-      <div className="lg:-mt-[1px] md:mt-1 sm:mt-4 mt-8">
+      <div className="lg:-mt-[1px] md:-mt-0 sm:-mt-0 mt-8">
         <div className="bg-[#091D33] text-white py-8">
           <div className="max-w-screen-xl lg:mx-40 mx-5 md:mx-10 lg:px-20 md:px-20 flex flex-col md:flex-row 
           ">
