@@ -6,10 +6,11 @@ import img20 from '../../public/img20.png';
 const Footer = () => {
   return (
     <>
-      <div className="lg:mt-4 md:mt-1 sm:mt-4 mt-8">
+      <div className="lg:-mt-[1px] md:mt-1 sm:mt-4 mt-8">
         <div className="bg-[#091D33] text-white py-8">
-          <div className="max-w-screen-xl lg:mx-20 mx-5 md:mx-10 lg:px-20 md:px-20 flex flex-col md:flex-row">
-            <div className="w-full lg:w-[40%] md:w-[990px] mb-6 md:mb-0 ">
+          <div className="max-w-screen-xl lg:mx-40 mx-5 md:mx-10 lg:px-20 md:px-20 flex flex-col md:flex-row 
+          ">
+            <div className="w-full lg:w-[47%] md:w-[990px] mb-6 md:mb-0 ">
               <img
                 src={img20}
                 alt=""
@@ -48,7 +49,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="lg:w-32 md:w-[500px] sm:w-72  lg:block md:block hidden">
+            <div className="lg:w-40 md:w-[500px] sm:w-72  lg:block md:block hidden ">
               <h3 className="text-lg font-semibold border-white pb-2">
                 ABOUT US
               </h3>
@@ -59,7 +60,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="w-full lg:w-48 md:w-[800px] sm:w-[680px] mb-6 md:mb-0  lg:block md:block hidden">
+            <div className="w-full lg:w-60 md:w-[800px] sm:w-[680px] mb-6 md:mb-0  lg:block md:block hidden">
               <h3 className="text-lg font-semibold border-white pb-2">
                 OUR COMPANIES
               </h3>
@@ -160,7 +161,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full lg:w-80 md:mx-full -mt-32 lg:-mt-0 md:-mt-0 sm:hidden lg:block md:block ">
+            <div className="w-full lg:w-80 md:mx-full mx-4 -mt-32 lg:-mt-0 md:-mt-0 sm:hidden lg:block md:block ">
               <h3 className="text-lg font-semibold border-white pb-2">
                 USEFUL LINKS
               </h3>
@@ -177,3 +178,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
