@@ -2,9 +2,8 @@ import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import Footer from "../Footer";
 import ScrollToTop from "./ScrollToTop";
-// import ScrollToTop from "./ScrollToTop";
-// import Navbar from "././../../Components/Navbar";
-// import Footer from "../Homefolder/Footer";
+import Navbar from "./Navbar";
+
 const LayOut = () => {
   const [loading, setLoading] = useState(false);
 
@@ -23,10 +22,8 @@ const LayOut = () => {
         </div>
       ) : (
         <>
-          {/* <Navbar />
-          <ScrollToTop />
-          <Outlet />
-          <Footer /> */}
+         
+          <Navbar />
           <ScrollToTop />
           <Outlet />
           <Footer />

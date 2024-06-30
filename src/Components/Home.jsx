@@ -5,6 +5,7 @@ import img2 from "../../public/img2.png";
 import { FiMenu } from "react-icons/fi";
 import { IoCloseOutline } from "react-icons/io5";
 import { Link } from "react-scroll";
+
 import img3 from "../../public/img3.png";
 import img4 from "../../public/img4.png";
 import img5 from "../../public/img5.png";
@@ -54,6 +55,7 @@ import Hironmoy from '../../public/Hironmoy.png';
 import Group from '../../public/Group.png';
 import Mobilegroup from '../../public/Mobilegroup.png';
 import newgroup from '../../public/newgroup.jpeg';
+import { NavLink } from "react-router-dom";
 // import './styles.css';
 
 // import required modules
@@ -76,86 +78,13 @@ const Home = () => {
   return (
     <div style={{ fontFamily: "Century Gothic" }} className="w-full">
       <div style={{ position: "relative" }}>
-        <img
-          className="lg:left-20 left-6 sm:left-12"
-          src={loogo}
-          alt=""
-          style={{
-            position: "absolute",
-            // left: 20,
-            top: "10px",
-            height: "50px",
-            cursor: "pointer",
-            zIndex: 1,
-          }}
-        />
-
-        <div style={{ position: "relative" }} className="w-full h-auto">
-          <img
-            className="w-full h-auto"
-            src={img1}
-            alt=""
-            style={{ position: "relative" }}
-          />
-
-          <img
-            className="w-full h-auto absolute top-[37%] sm:top-[21%] md:top-[18%] lg:top-[11%]"
-            src={img2}
-            alt=""
-          />
-        </div>
-
-        <div className="left flex items-center">
-          <div
-            className="absolute lg:top-5 top-5 right-6 md:top-6 md:right-10 lg:right-20 sm:top-6 sm:right-16 p-
-           text-white rounded-full border"
-          >
-            <FiMenu
-              onClick={() => setMenu(true)}
-              className="lg:text-2xl md:text-2xl text-xl cursor-pointer "
-            />
-          </div>
-        </div>
-
-        {isSideMenuOpen && (
-          <div
-            className="fixed h-screen w-full z-[999] font-Poppins cursor-pointer bg-[#091D33] bg-opacity-50 
-           backdrop-blur-sm top-0 right-0"
-          >
-            <section
-              className="text-black bg-gray-100 flex-col absolute left-0 top-0 h-screen 
-             p-8 gap-8 z-50 w-full text-center flex"
-            >
-              <IoCloseOutline
-                onClick={() => setMenu(false)}
-                className="mt-3 mb-8 text-4xl text-white
-                 rounded-full p-2 cursor-pointer bg-black absolute md:top-5 md:right-20 right-10 top-0 
-                  lg:top-5 lg:right-32"
-              />
-
-              <Link className="font-bold">HOME</Link>
-              <Link className="font-bold">ALL COMPANIES</Link>
-              <Link className="font-bold">ABOUT US</Link>
-              <Link className="font-bold">CONTACT US</Link>
-              <Link className="font-bold">OUR BLOGS</Link>
-              <Link className="font-bold"> CONNECT WITH US</Link>
-
-              <div className="flex justify-center mt-0 sm:gap-7 lg:text-2xl text-4xl md:text-2xl md:gap-4 sm:mx-64 mx-20 lg:mx-0 gap-4 md:mx-0 text-center">
-                <div className="rounded-full">
-                  <IoLogoYoutube />
-                </div>
-                <div className="rounded-full">
-                  <FaFacebook />
-                </div>
-                <div className="rounded-full">
-                  <FaInstagramSquare />
-                </div>
-              </div>
-            </section>
-          </div>
-        )}
+       
 
       
+
+
+
+
 
         {/* PART2 */}
 
@@ -365,21 +294,25 @@ md:block md:text-xl "
         className="mySwiper"
       >
       
-      <SwiperSlide>    
+ <NavLink to="/allcompanies">
+
+ <SwiperSlide>    
     
     <div className=" lg:block md:block sm:block hidden">
     <img src={img4} alt="" className="w-full  lg:mt-16  md:mt-[90px] sm:mt-[70px]" />
     
     <div className="flex justify-center items-center md:-ml-5 sm:ml-5 ">
-      
+    <NavLink to="/kalpanahotel">
 <img src={allhotel} alt="" className=" lg:w-[900px] lg:-mt-[126px] md:-mt-[141px] sm:-mt-[103px] " />
-
+</NavLink>  
 </div>
 
-
+ 
     
     </div>
     </SwiperSlide>
+
+ </NavLink>
 
 
 
@@ -459,12 +392,13 @@ md:block md:text-xl "
                   restaurants, rejuvenate at our spa, or host unforgettable
                   events in our exquisite venues.
                 </p>
-
+                <NavLink to="/kalpanahotel">
                 <img
                   src={img6}
                   alt=""
                   className="lg:w-5 md:w-5 w-10 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 "
                 />
+                </NavLink>
               </div>
 
               <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
