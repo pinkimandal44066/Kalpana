@@ -183,14 +183,14 @@ export default function App() {
         <img src={img27} alt="" className="h-full w-80"/>
         </SwiperSlide>
         
-        {/* <SwiperSlide>
+        <SwiperSlide>
         <div className="flex gap-10 -mt-10">
           
           <img src={img27} alt="" className="h-full w-80"/>
           <img src={img28} alt="" className="h-full w-80"/>
           <img src={img29} alt="" className="h-full w-80"/>
         </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
       </Swiper>
           </div>
 

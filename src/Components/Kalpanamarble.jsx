@@ -171,7 +171,7 @@ for budget-minded travelers, while the deluxe rooms and suite offer more space a
 {/* PART3 */}
 
 
-<Slider />
+{/* <Slider /> */}
 
 
 

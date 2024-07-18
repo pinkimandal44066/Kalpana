@@ -24,6 +24,7 @@ import 'swiper/css/pagination';
 // import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
 import Slider from './Slider';
+import { NavLink } from 'react-router-dom';
 
 const Kalpanahotel = () => {
   return (
@@ -47,7 +48,9 @@ sm:space-x-7 space-x-5  max-w-screen-xl mx-auto'>
     <img src={img3} alt="" className="lg:w-[80%] lg:mt-20 md:-mt-10 sm:-mt-0 " />
   </div>
   <div className="lg:w-1/2 px-4 order-2 lg:order-1">
+  <NavLink to='/kalpanavegvalley'>
     <h1 className="text-3xl font-bold mb-2 lg:mt-20 md:mt-0  -mt-4">Hotel Grand</h1>
+    </NavLink>
     <p className="text-sm mb-4">
     With ‘Namaste’ as the enduring symbol of its brand experience and 
 ‘Responsible Luxury’ as the guiding premise, HOTEL GRAND are an archetype of the culture and ethos of each destination offering authentic, indigenous luxury experiences which are in harmony with the environment and society.
@@ -55,9 +58,13 @@ Discover a symphony of flavors crafted by passionate chefs, tantalizing your tas
     </p>
   
     <div>
-      <button className="text-black flex border-2 bg-[#DFA627] shadow-2xl font-semibold py-1.5 px-6 mt- rounded-sm lg:mx-0 mx-auto">
+      <NavLink to='/kalpanavegvalley'>
+      <button className="text-black flex border-2 bg-[#DFA627] shadow-2xl font-semibold py-1.5 px-6 mt- 
+      rounded-sm lg:mx-0 mx-auto">
         Call Now
       </button>
+      </NavLink>
+      
     </div>
   </div>
 </div>

@@ -4,6 +4,7 @@ import Footer from "../Footer";
 import ScrollToTop from "./ScrollToTop";
 import Navbar from "./Navbar";
 
+
 const LayOut = () => {
   const [loading, setLoading] = useState(false);
 
@@ -22,7 +23,7 @@ const LayOut = () => {
         </div>
       ) : (
         <>
-         
+       
           <Navbar />
           <ScrollToTop />
           <Outlet />

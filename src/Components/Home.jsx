@@ -347,7 +347,7 @@ md:block md:text-xl "
 
         {/* Mobile part */}
 
-        <Swiper
+        {/* <Swiper
           pagination={{
             type: "fraction",
           }}
@@ -467,9 +467,67 @@ md:block md:text-xl "
           </SwiperSlide>
 
          
-        </Swiper>
+        </Swiper> */}
 
+<Swiper>
+    <SwiperSlide className="lg:hidden md:hidden sm:hidden block bg-cover bg-center h-[600px]  "
+            style={{ backgroundImage: `url(${img5})` }}>
+    <div  >
+        <div className="flex justify-end items-center  ">
+              <h1 className="lg:mt-8 mt-10  lg:mx-32 md:mx-32 mx-[100px]  font-bold lg:text-xl text-sm ">
+                EXPLORE OUR COMPANYS​
+              </h1>
+              <img
+                src={img19}
+                alt=""
+                className="w-[300px]  lg:block md:block sm:block hidden  "
+              />
+              <img
+                src={img19}
+                alt=""
+                className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px] "
+              />
+            </div>
 
+            <img src={img4} alt="" className="w-full lg:mt-0 mt-4" />
+
+            <div
+              className="flex justify-center flex-col lg:flex-row  
+         items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40  mt-10 lg:mt-0"
+            >
+              <div className=" lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+                <h1 className="text-3xl font-bold mb-2 mt-8 lg:-mt-10 lg:mx-0 md:mx-0 mx-16 w-full">
+                  Hotel Grand
+                </h1>
+                <p className="text-sm mb-4 w-80  lg:w-96 ">
+                  It’s a sanctuary of elegance and comfort. From opulent suites
+                  to impeccable service, we craft moments that linger in your
+                  memory. Discover a world of culinary delights at our
+                  restaurants, rejuvenate at our spa, or host unforgettable
+                  events in our exquisite venues.
+                </p>
+                <NavLink to="/kalpanahotel">
+                <img
+                  src={img6}
+                  alt=""
+                  className="lg:w-5 md:w-5 w-10 lg:-mt-2 lg:mx-1 md:mx-1 mx-32 "
+                />
+                </NavLink>
+              </div>
+
+              <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m ">
+                <img
+                  src={img3}
+                  alt=""
+                  className="lg:w-[99%]  lg:mt-14 -mt-20 md:w-96 sm:w-80 w-72"
+                />
+              </div>
+            </div>
+   </div>
+    </SwiperSlide>
+
+  
+ </Swiper>
 
 {/* GROUP CODE HOME PAGE */}
 
@@ -965,9 +1023,81 @@ md:block md:text-xl "
       </Swiper>
 
 
-        {/* mobile paet 2 */}
+        {/* mobile part 2 */}
+
+
+
+
 
         <Swiper
+        //   pagination={{
+        //     type: "fraction",
+        //   }}
+        //   navigation={true}
+        //   modules={[Navigation]}
+        //   className="mySwiper"
+        >
+          <SwiperSlide
+            className="lg:hidden md:hidden sm:hidden block"
+            style={{
+              backgroundImage: `url(${img5})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          >
+           <div>
+           <div className="flex justify-end items-center">
+              <h1 className="lg:mt-8 mt-6 lg:mx-32 md:mx-32 mx-[210px] font-bold lg:text-xl text-sm">
+                MESSAGE
+              </h1>
+              <img
+                src={img19}
+                alt=""
+                className="w-[300px] lg:block md:block sm:block hidden"
+              />
+              <img
+                src={img19}
+                alt=""
+                className="w-[300px] lg:-ml-[90px] md:-ml-32 sm:-ml-28 -ml-[165px]"
+              />
+            </div>
+
+            <img src={img4} alt="" className="w-full lg:mt-0 mt-4" />
+
+            <div className="flex justify-center flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:space-x-10 max-w-screen-xl mx-auto lg:mx-40 mt-10 lg:mt-0">
+              <div className="lg:w-1/2 px-4 order-2 lg:order-1 lg:mx-0 md:mx-0 mx-20 sm:mx-0">
+                <h1 className="text-3xl font-bold mb-2 mt-0 lg:-mt-10 lg:mx-0 md:mx-0 mx-8 w-full">
+                  Mr. Hironmoy DAs
+                </h1>
+                <p className="text-sm mb-4 w-80 lg:w-96">
+                  I am honored to extend a warm welcome to all of you, whether
+                  you are a returning guest seeking the comforts of Kalpana Inn
+                  or a new visitor about to embark on a memorable experience.
+                  Kalpana Inn has a long and proud tradition of hospitality.
+                  [Optional: Briefly mention the inns history or a core value].
+                  We are committed to providing exceptional service, comfortable
+                  accommodations, and a welcoming atmosphere that makes you feel
+                  right at home.
+                </p>
+                <h1 className="lg:mx-40 mx-[118px]">-Chairman</h1>
+              </div>
+
+              <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m">
+                <img
+                  src={img18}
+                  alt=""
+                  className="lg:w-[99%] lg:mt-14 -mt-14 md:w-96 sm:w-80 w-72"
+                />
+              </div>
+            </div>
+           </div>
+          </SwiperSlide>
+
+         
+
+         
+        </Swiper>
+        {/* <Swiper
           pagination={{
             type: "fraction",
           }}
@@ -1080,7 +1210,7 @@ md:block md:text-xl "
           </SwiperSlide>
 
          
-        </Swiper>
+        </Swiper> */}
 
         {/* Footer */}
 
