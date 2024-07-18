@@ -1,15 +1,18 @@
 // import React from 'react'
 import React, { useRef, useState } from 'react';
-import img3 from '../../../public/img3.png';
-import img5 from '../../../public/img5.png';
-import img21 from '../../../public/img21.png';
+
+import img3 from '../../public/img3.png';
+
+// import img5 from '../../public/img5.png';
+
+import img21 from '../../public/img21.png';
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
-import img22 from '../../../public/img22.png';
-import img26 from '../../../public/img26.png';
-import img27 from '../../../public/img27.png';
-import img28 from '../../../public/img28.png';
-import img29 from '../../../public/img29.png';
+// import img22 from '../../../public/img22.png';
+// import img26 from '../../../public/img26.png';
+// import img27 from '../../../public/img27.png';
+// import img28 from '../../../public/img28.png';
+// import img29 from '../../../public/img29.png';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -23,12 +26,16 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
-import Slider from './Slider';
 
-const Kalpanahotel = () => {
+// import Slider from './Slider';
+// import './Slider';
+import Slider from './Homefolder/Slider';
+import { NavLink } from 'react-router-dom';
+
+const Kalpanainn = () => {
   return (
     <>
-<div>
+      <div>
 <ul className='flex items-center justify-center lg:space-x-10  md:space-x-10  mt-4
 sm:space-x-7 space-x-5  max-w-screen-xl mx-auto'>
 <li className="font-bold">ABOUT</li>
@@ -47,7 +54,13 @@ sm:space-x-7 space-x-5  max-w-screen-xl mx-auto'>
     <img src={img3} alt="" className="lg:w-[80%] lg:mt-20 md:-mt-10 sm:-mt-0 " />
   </div>
   <div className="lg:w-1/2 px-4 order-2 lg:order-1">
-    <h1 className="text-3xl font-bold mb-2 lg:mt-20 md:mt-0  -mt-4">Hotel Grand</h1>
+  <h1 className="text-3xl font-bold mb-2 lg:mt-20 md:mt-0  -mt-4">
+                  <span className="text-2xl  mb-2 lg:mt-20 md:mt-0 bg-[#DFA627] -mt-4 font-semibold rounded-md p-1">
+                    KALPANA
+                  </span>{" "}
+                  INN
+                </h1>
+    {/* <h1 className="text-3xl font-bold mb-2 lg:mt-20 md:mt-0 bg-[#DFA627] -mt-4">KALPANA <span>INN</span></h1> */}
     <p className="text-sm mb-4">
     With ‘Namaste’ as the enduring symbol of its brand experience and 
 ‘Responsible Luxury’ as the guiding premise, HOTEL GRAND are an archetype of the culture and ethos of each destination offering authentic, indigenous luxury experiences which are in harmony with the environment and society.
@@ -55,9 +68,11 @@ Discover a symphony of flavors crafted by passionate chefs, tantalizing your tas
     </p>
   
     <div>
+        <NavLink to='/kalpanagym' >
       <button className="text-black flex border-2 bg-[#DFA627] shadow-2xl font-semibold py-1.5 px-6 mt- rounded-sm lg:mx-0 mx-auto">
         Call Now
       </button>
+      </NavLink>
     </div>
   </div>
 </div>
@@ -158,6 +173,7 @@ for budget-minded travelers, while the deluxe rooms and suite offer more space a
 
 {/* PART3 */}
 
+
 <Slider />
 
 
@@ -241,4 +257,4 @@ for budget-minded travelers, while the deluxe rooms and suite offer more space a
   )
 }
 
-export default Kalpanahotel
+export default Kalpanainn
