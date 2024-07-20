@@ -9,6 +9,8 @@ import img26 from '../../../public/img26.png';
 import img27 from '../../../public/img27.png';
 import img28 from '../../../public/img28.png';
 import img29 from '../../../public/img29.png';
+import img34 from '../../../public/img34.png';
+
 import { MdArrowForwardIos } from "react-icons/md";
 import { MdArrowBackIosNew } from "react-icons/md";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
@@ -142,14 +144,14 @@ export default function App() {
               
             </Swiper>
 
-       <div className="mt-6">
-       {/* <img src={img26} alt="" className="w-96"/> */}
-        {/* <div className="flex gap-10 -mt-10">
-          
-          <img src={img27} alt="" className="h-full w-80"/>
-          <img src={img28} alt="" className="h-full w-80"/>
-          <img src={img29} alt="" className="h-full w-80"/>
-        </div> */}
+
+
+
+
+{/* PART2 */}
+       {/* <div className="mt-6">
+     
+     
        </div>
        <img src={img26} alt="" className="w-96"/>
 
@@ -160,7 +162,7 @@ export default function App() {
         pagination={{
           clickable: true,
         }}
-        // modules={[FreeMode, Pagination]}
+      
         className="mySwiper"
       >
         
@@ -191,7 +193,10 @@ export default function App() {
           <img src={img29} alt="" className="h-full w-80"/>
         </div>
         </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
+
+
+      <img className="mt-5 " src={img34} alt=""/>
           </div>
 
 

@@ -2,7 +2,7 @@
 import React, { useRef, useState } from 'react';
 
 import img3 from '../../public/img3.png';
-
+import img35 from '../../public/img35.png';
 // import img5 from '../../public/img5.png';
 
 import img21 from '../../public/img21.png';
@@ -50,7 +50,7 @@ sm:space-x-7 space-x-5  max-w-screen-xl mx-auto'>
 <div className="flex flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:space-x-10 lg:ml-32 
  max-w-screen-xl mx-auto lg:mx-20 sm:mt-0 mt-0 md:mt-0 lg:-mt-12 2xl:-mt-14  xl:-mt-14">
   <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m">
-    <img src={img3} alt="" className="lg:w-[80%] lg:mt-20 md:-mt-10 sm:-mt-0 " />
+    <img src={img35} alt="" className="lg:w-[80%] lg:mt-20 md:-mt-10 sm:-mt-0 " />
   </div>
   <div className="lg:w-1/2 px-4 order-2 lg:order-1">
   <h1 className="text-3xl font-bold mb-2 lg:mt-20 md:mt-0  -mt-4">
@@ -171,7 +171,7 @@ for budget-minded travelers, while the deluxe rooms and suite offer more space a
 {/* PART3 */}
 
 
-{/* <Slider /> */}
+<Slider />
 
 
 
