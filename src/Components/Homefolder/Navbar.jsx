@@ -1,4 +1,5 @@
-import React, {useEffect, useState, useRef} from 'react'
+import React, {useEffect, useState, useRef,} from 'react'
+import { useLocation } from 'react-router-dom';
 import loogo from '../../../public/loogo.png';
 import img1 from '../../../public/img1.png';
 import img2 from '../../../public/img2.png';
@@ -11,11 +12,19 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
 
-    const [isSideMenuOpen, setMenu] = useState(false);
+  //   const [isSideMenuOpen, setMenu] = useState(false);
 
-  useEffect(() => {
-    setMenu(false);
-  }, []);
+  // useEffect(() => {
+  //   setMenu(false);
+  // }, []);
+
+
+
+  const [isSideMenuOpen, setMenu] = useState(false);
+  const location = useLocation();
+  useEffect(()=> {
+setMenu(false);
+  }, [location])
   return (
     <>
          <div style={{ fontFamily: "Century Gothic" }} className="w-full">
@@ -93,9 +102,9 @@ const Navbar = () => {
             
               <NavLink to="/allcompanies" className="font-bold">ALL COMPANIES</NavLink>
               <NavLink to="/aboutus" className="font-bold">ABOUT US</NavLink>
-              <Link className="font-bold">CONTACT US</Link>
+          <NavLink to='/Contactus' className="font-bold">CONTACT US</NavLink>
               <Link className="font-bold">OUR BLOGS</Link>
-              <Link className="font-bold"> CONNECT WITH US</Link>
+              <Link  className="font-bold"> CONNECT WITH US</Link>
 
               <div className="flex justify-center mt-0 sm:gap-7 lg:text-2xl text-4xl md:text-2xl md:gap-4 sm:mx-64 mx-20 lg:mx-0 gap-4 md:mx-0 text-center">
                 <div className="rounded-full">

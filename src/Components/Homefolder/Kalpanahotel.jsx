@@ -31,11 +31,11 @@ const Kalpanahotel = () => {
     <>
 <div>
 <ul className='flex items-center justify-center lg:space-x-10  md:space-x-10  mt-4
-sm:space-x-7 space-x-5  max-w-screen-xl mx-auto'>
-<li className="font-bold">ABOUT</li>
-<li className="font-bold">AMENITIES</li>
-              <li className="font-bold">GALLERY</li>
-              <li className="font-bold"> OFFER</li>
+sm:space-x-7 space-x-5  max-w-screen-xl mx-auto '>
+<li className="font-bold cursor-pointer">ABOUT</li>
+<li className="font-bold cursor-pointer">AMENITIES</li>
+              <li className="font-bold cursor-pointer">GALLERY</li>
+              <li className="font-bold cursor-pointer"> OFFER</li>
 </ul>
 
 
