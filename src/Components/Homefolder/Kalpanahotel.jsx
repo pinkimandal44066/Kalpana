@@ -173,10 +173,6 @@ for budget-minded travelers, while the deluxe rooms and suite offer more space a
 
 
 
-{/* <div className='max-w-screen-xl lg:mx-40 mx-5 mt-10'>
-  <img src={img22} alt=''/>
-</div> */}
-
 
 
 
