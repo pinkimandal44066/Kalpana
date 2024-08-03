@@ -10,6 +10,7 @@ import Kalpanavegvalley from './Components/Kalpanavegvalley';
 import Kalpanainn from './Components/Kalpanainn';
 import Kalpanagym from './Components/Kalpanagym';
 import Kalpanamarble from './Components/Kalpanamarble';
+import Kalpanacolorbank from './Components/Kalpanacolorbank';
 const App = () => {
   return (
     <div>
@@ -28,6 +29,7 @@ const App = () => {
             <Route path="/kalpanainn" element={<Kalpanainn/>} />
             <Route path="/kalpanagym" element={<Kalpanagym/>} />
             <Route path="/kalpanamarble" element={<Kalpanamarble/>} />
+            <Route path="/kalpanacolorbank" element={<Kalpanacolorbank/>} />
           </Route>
         </Routes>
       </Router>

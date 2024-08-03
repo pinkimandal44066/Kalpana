@@ -2,10 +2,11 @@
 import React, { useRef, useState } from 'react';
 
 import img3 from '../../public/img3.png';
-import img35 from '../../public/img35.png';
+
 // import img5 from '../../public/img5.png';
 
 import img21 from '../../public/img21.png';
+import img33 from '../../public/img33.png';
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 // import img22 from '../../../public/img22.png';
@@ -27,12 +28,11 @@ import 'swiper/css/pagination';
 // import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
 
-// import Slider from './Slider';
-// import './Slider';
+
 import Slider from './Homefolder/Slider';
+import { NavLink } from 'react-router-dom';
 
-
-const  Kalpanamarble = () => {
+const Kalpanajawedhabib = () => {
   return (
     <>
       <div>
@@ -51,14 +51,14 @@ sm:space-x-7 space-x-5  max-w-screen-xl mx-auto'>
 <div className="flex flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:space-x-10 lg:ml-32 
  max-w-screen-xl mx-auto lg:mx-20 sm:mt-0 mt-0 md:mt-0 lg:-mt-12 2xl:-mt-14  xl:-mt-14">
   <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m">
-    <img src={img35} alt="" className="lg:w-[80%] lg:mt-20 md:-mt-10 sm:-mt-0 " />
+    <img src={img33} alt="" className="lg:w-[80%] lg:mt-20 md:-mt-10 sm:-mt-0 " />
   </div>
   <div className="lg:w-1/2 px-4 order-2 lg:order-1">
   <h1 className="text-3xl font-bold mb-2 lg:mt-20 md:mt-0  -mt-4">
                   <span className="text-2xl  mb-2 lg:mt-20 md:mt-0 bg-[#DFA627] -mt-4 font-semibold rounded-md p-1">
                     KALPANA
                   </span>{" "}
-                  STEEL & MARBLES
+                  FITNESS
                 </h1>
     {/* <h1 className="text-3xl font-bold mb-2 lg:mt-20 md:mt-0 bg-[#DFA627] -mt-4">KALPANA <span>INN</span></h1> */}
     <p className="text-sm mb-4">
@@ -68,9 +68,11 @@ Discover a symphony of flavors crafted by passionate chefs, tantalizing your tas
     </p>
   
     <div>
+        <NavLink to='/kalpanamarble'>
       <button className="text-black flex border-2 bg-[#DFA627] shadow-2xl font-semibold py-1.5 px-6 mt- rounded-sm lg:mx-0 mx-auto">
         Call Now
       </button>
+      </NavLink>
     </div>
   </div>
 </div>
@@ -111,33 +113,42 @@ max-w-screen-xl mx-auto lg:mx-20 sm:mt-0 mt-0 md:mt-0 2xl:mx-40   lg:-mt-12 2xl:
 <div className="lg:w-1/2 px-4 order-2 lg:order-1 ">
 <div className='items-center justify-between flex'>
 
-<h1 className="text-3xl font-bold mb-2 lg:mt-14 md:-mt-5 -mt-4">GANESHAY PREMIUM</h1>
+<h1 className="text-3xl font-bold mb-2 lg:mt-14 md:-mt-5 -mt-4">A WELL-EQUIPPED GYM</h1>
 
 
 
 </div>
 
 <p className="text-base mb-4">
-Ganesha, the revered deity known for wisdom, prosperity, and remover of obstacles, inspires a design that encapsulates spiritual depth and artistic finesse. Each element of the Ganesh design intricately weaves together symbolism and tradition, representing auspicious beginnings and the power of transformation..
+1. Cardio Machines: Treadmills, ellipticals, stationary bikes, and rowing machines.
 
 <p className='text-base
-'>
-. Standard rooms: These rooms are typically equipped with a double bed, air conditioning, and a TV.
+'>2. Strength Training Equipment: Free weights, weight machines, and resistance bands.Standard rooms: These rooms are typically equipped with a double bed, air conditioning, and a TV.
 </p>
 <p className='text-base'>
-. Deluxe rooms: These rooms are larger than standard rooms and may have a king-size bed, a sitting area, and a minibar.
+ 3. Functional Training Area: Space for exercises like kettlebell workouts, TRX, and bodyweight exercises.
+
 </p>
 
 <p  className='text-base'>
-.   Suite: The suite is the largest room at the hotel and offers a separate living area, a bedroom, and a Jacuzzi.
+4. Group Fitness Studios: Rooms for classes like yoga, pilates, and spinning.
 </p>
 
 <p>
 
-When booking a room at Kalpana Inn, be sure to consider your needs and budget. The standard rooms are a good option 
-for budget-minded travelers, while the deluxe rooms and suite offer more space and amenities.
+5. Locker Rooms: Secure lockers, showers, and changing areas.
 </p>
 
+<p>
+  6. Recovery Zone: Areas with foam rollers, stretching mats, and possibly massage chairs.
+</p>
+
+<p>
+  7. Staffed Reception: For membership inquiries and support.
+</p>
+<p>
+  8. Refreshments: Water stations.
+</p>
 </p>
 
 
@@ -253,4 +264,4 @@ for budget-minded travelers, while the deluxe rooms and suite offer more space a
   )
 }
 
-export default Kalpanamarble
+export default Kalpanajawedhabib

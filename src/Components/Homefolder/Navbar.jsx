@@ -21,6 +21,7 @@ const Navbar = () => {
 
 
   const [isSideMenuOpen, setMenu] = useState(false);
+  const [showServices, setShowServices] = useState(false);
   const location = useLocation();
   useEffect(()=> {
 setMenu(false);
@@ -100,7 +101,47 @@ setMenu(false);
           HOME
              </NavLink>
             
-              <NavLink to="/allcompanies" className="font-bold">ALL COMPANIES</NavLink>
+
+
+             <div className=" ">
+                  <h4
+                    className="cursor-pointer font-bold"
+                    onClick={() => setShowServices(!showServices)}
+                  >
+                 ALL COMPANIES >
+                  </h4>
+                  {showServices && (
+                    <div className="text-lg  flex flex-col font-bold">
+                      <NavLink to="/kalpanainn" className="mt-5">
+                    KALPANA INN
+                      </NavLink>
+                      <NavLink to="/kalpanamarble" className="mt-3 font-bold">
+                     KALPANA MARBLE
+                      </NavLink>
+                      <NavLink
+                        to="/marketing/marketing_designs"
+                        className="mt-3 font-bold"
+                      >
+                       KALPANA BUILDERS
+                      </NavLink>
+
+
+                      <NavLink
+                        to="/marketing/marketing_designs"
+                        className="mt-3 font-bold"
+                      >
+                     HOTEL GRAND
+                      </NavLink>
+                      <NavLink
+                        to="/kalpanacolorbank"
+                        className="mt-3 font-bold"
+                      >
+                  KALPANA COLORS
+                      </NavLink>
+                    </div>
+                  )}
+                </div>
+              {/* <NavLink to="/allcompanies" className="font-bold">ALL COMPANIES</NavLink> */}
               <NavLink to="/aboutus" className="font-bold">ABOUT US</NavLink>
           <NavLink to='/Contactus' className="font-bold">CONTACT US</NavLink>
               <Link className="font-bold">OUR BLOGS</Link>

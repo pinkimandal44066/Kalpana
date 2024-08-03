@@ -103,7 +103,7 @@ max-w-screen-xl mx-auto lg:mx-20 sm:mt-0 mt-0 md:mt-0 2xl:mx-40   lg:-mt-12 2xl:
 <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m -mt-24 ">
 
 <h1 className="lg:text-3xl md:text-3xl  sm:text-3xl  text-2xl font-bold mb-2 lg:-mt-14 md:mt-24  mx-0 xl:mt-4
- sm:mt-24 mt-28 lg:ml-20  xl:ml-36 2xl:ml-44  ">Facilitates Available</h1>
+ sm:mt-24 mt-28 lg:ml-20  xl:ml-36 2xl:ml-44  ">FACILITATES AVAILABLE </h1>
   
 <img src={img21} alt="" className="lg:w-[80%] lg:-mt-0 md:mt-6 sm:mt-4 mx-" />
 
@@ -113,35 +113,42 @@ max-w-screen-xl mx-auto lg:mx-20 sm:mt-0 mt-0 md:mt-0 2xl:mx-40   lg:-mt-12 2xl:
 <div className="lg:w-1/2 px-4 order-2 lg:order-1 ">
 <div className='items-center justify-between flex'>
 
-<h1 className="text-3xl font-bold mb-2 lg:mt-14 md:-mt-5 -mt-4">60+ Rooms</h1>
+<h1 className="text-3xl font-bold mb-2 lg:mt-14 md:-mt-5 -mt-4">A WELL-EQUIPPED GYM</h1>
 
 
 
 </div>
 
 <p className="text-base mb-4">
-The Kalpana Inn in Durgapur is a 3-star hotel that offers a variety of rooms to suit your needs. 
-Guests have reported that the rooms are clean and comfortable, with some finding the beds a bit hard.
-Here are some of the rooms available at Kalpana Inn:
+1. Cardio Machines: Treadmills, ellipticals, stationary bikes, and rowing machines.
 
 <p className='text-base
-'>
-. Standard rooms: These rooms are typically equipped with a double bed, air conditioning, and a TV.
+'>2. Strength Training Equipment: Free weights, weight machines, and resistance bands.Standard rooms: These rooms are typically equipped with a double bed, air conditioning, and a TV.
 </p>
 <p className='text-base'>
-. Deluxe rooms: These rooms are larger than standard rooms and may have a king-size bed, a sitting area, and a minibar.
+ 3. Functional Training Area: Space for exercises like kettlebell workouts, TRX, and bodyweight exercises.
+
 </p>
 
 <p  className='text-base'>
-.   Suite: The suite is the largest room at the hotel and offers a separate living area, a bedroom, and a Jacuzzi.
+4. Group Fitness Studios: Rooms for classes like yoga, pilates, and spinning.
 </p>
 
 <p>
 
-When booking a room at Kalpana Inn, be sure to consider your needs and budget. The standard rooms are a good option 
-for budget-minded travelers, while the deluxe rooms and suite offer more space and amenities.
+5. Locker Rooms: Secure lockers, showers, and changing areas.
 </p>
 
+<p>
+  6. Recovery Zone: Areas with foam rollers, stretching mats, and possibly massage chairs.
+</p>
+
+<p>
+  7. Staffed Reception: For membership inquiries and support.
+</p>
+<p>
+  8. Refreshments: Water stations.
+</p>
 </p>
 
 

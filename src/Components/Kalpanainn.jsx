@@ -7,6 +7,7 @@ import img3 from '../../public/img3.png';
 
 import img21 from '../../public/img21.png';
 import img32 from '../../public/img32.png';
+import roomtype from '../../public/roomtype.png';
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 // import img22 from '../../../public/img22.png';
@@ -104,7 +105,7 @@ max-w-screen-xl mx-auto lg:mx-20 sm:mt-0 mt-0 md:mt-0 2xl:mx-40   lg:-mt-12 2xl:
 <div className="lg:w-1/2 px-4 order-1 lg:order-2 sm:m -mt-24 ">
 
 <h1 className="lg:text-3xl md:text-3xl  sm:text-3xl  text-2xl font-bold mb-2 lg:-mt-14 md:mt-24  mx-0 xl:mt-4
- sm:mt-24 mt-28 lg:ml-20  xl:ml-36 2xl:ml-44  ">Facilitates Available</h1>
+ sm:mt-24 mt-28 lg:ml-20  xl:ml-36 2xl:ml-44  ">FACILITATES AVAILABLE </h1>
   
 <img src={img21} alt="" className="lg:w-[80%] lg:-mt-0 md:mt-6 sm:mt-4 mx-" />
 
@@ -169,10 +170,12 @@ for budget-minded travelers, while the deluxe rooms and suite offer more space a
 
 
 
+{/* part3 */}
+
+<img src={roomtype} alt='' className='lg:mt-20 mt-10 lg:mx-auto mx-0 max-w-screen-xl h-32 lg:h-full md:h-80 md:mx-20 sm:h-60 sm:mx-0  '/>
 
 
-
-{/* PART3 */}
+{/* PART4 */}
 
 
 <Slider />

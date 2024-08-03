@@ -149,7 +149,11 @@ const ContactPage = () => {
                 <FaInstagram />
               </span>
             </div>
-            <div className="w-full max-w-md flex flex-col space-y-4">
+
+
+
+            
+            {/* <div className="w-full max-w-md flex flex-col space-y-4">
               <div className="border border-gray-300 p-3 rounded shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400">
                 <h1 className="text-sm lg:text-base">Name</h1>
               </div>
@@ -168,7 +172,69 @@ const ContactPage = () => {
               >
                 Send
               </button>
-            </div>
+            </div> */}
+
+
+
+
+
+<div className="w-full max-w-md flex flex-col space-y-4">
+  <div className="border border-gray-300  p-3  rounded shadow-md focus-within:ring-2 
+   focus-within:ring-yellow-400">
+    <h1 className="text-sm lg:text-base font-medium">  NAME</h1>
+    <input
+      type="text"
+      className="w-full focus:outline-none"
+      placeholder="Enter your  Name"
+    />
+  </div>
+  <div className="border border-gray-300 p-3 rounded shadow-md focus-within:ring-2 focus-within:ring-yellow-400">
+    <h1 className="text-sm lg:text-base font-medium">  PHONE NUMBER </h1>
+    <input
+      type="tel"
+      className="w-full focus:outline-none"
+      placeholder="Enter your phone number"
+    />
+  </div>
+  <div className="border border-gray-300 p-3 rounded shadow-md focus-within:ring-2 focus-within:ring-yellow-400">
+    <h1 className="text-sm lg:text-base font-medium">  EMAIL ID </h1>
+    <input
+      type="email"
+      className="w-full focus:outline-none"
+      placeholder="Enter your email address"
+    />
+  </div>
+
+
+  <div className="border border-gray-300 p-3 rounded shadow-md focus-within:ring-2 focus-within:ring-yellow-400">
+    <h1 className="text-sm lg:text-base font-medium">YOUR MESSAGE </h1>
+    <input
+      type="email"
+      className="w-full focus:outline-none"
+      placeholder="Enter your message"
+    />
+  </div>
+  {/* <div className="border border-gray-300 p-3 h-20  rounded shadow-md focus-within:ring-2 focus-within:ring-yellow-400">
+    <h1 className="text-sm lg:text-base">Your Message</h1>
+    <textarea
+      className="w-full h-full resize-none focus:outline-none"
+      placeholder="Enter your message"
+    ></textarea>
+  </div> */}
+  <button
+    type="submit"
+    className="bg-[#DFA627] text-white py-2 rounded font-bold hover:bg-yellow-500 mt-4"
+  >
+    Send
+  </button>
+</div>
+
+
+
+
+
+
+
           </div>
           <div className="w-full lg:w-1/2">
             <iframe
@@ -188,3 +254,40 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <div className="w-full max-w-md flex flex-col space-y-4">
+// <div className="border border-gray-300 p-3 rounded shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400">
+//   <h1 className="text-sm lg:text-base">Name</h1>
+// </div>
+// <div className="border border-gray-300 p-3 rounded shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400">
+//   <h1 className="text-sm lg:text-base">Phone Number</h1>
+// </div>
+// <div className="border border-gray-300 p-3 rounded shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400">
+//   <h1 className="text-sm lg:text-base">Email ID</h1>
+// </div>
+// <div className="border border-gray-300 p-3 h-20 rounded shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400">
+//   <h1 className="text-sm lg:text-base">Your Message</h1>
+// </div>
+// <button
+//   type="submit"
+//   className="bg-[#DFA627] text-white py-2 rounded font-bold hover:bg-yellow-500 mt-4"
+// >
+//   Send
+// </button>
+// </div>
+// Name  me click kyu nhi ho raha hai kuch type kyu nhi ho  raha hai fix kro yaad rkho  design me koi v change nhi hona chahiye
